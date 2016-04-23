@@ -1,0 +1,1229 @@
+{{Languages}}
+{{MetalicaRap}}
+{{Development
+|status = Experimental
+|name = MetalicaRap
+|description = An Electron Beam 3D Metal  and Home Solar cell  Printer, including microscope vision system (SEM)  &  Z axis metal correction in a vacuum.(Design stage).
+|license = [[GPL]]
+|author = Rapatan
+|reprap = Sui Generis
+|categories = [[:Category:EBM|EBM]][[Category:EBM]],[[:Category:Powder|Powder]][[Category:Powder]],[[category: printers capable of printing with metals]]
+|url= please contact us via mail forum below
+|image =Assembly301 aL.jpg
+}}MetalicaRap is an open 3D metal & home solar cell printer, based on the principles of electron beam welding and vapor deposition. MetalicaRap is currently in the design stage. The goal is to have affordable home-manufacturing of solar cells, key electrical parts and  milled-quality metal parts[http://www.aeronautics.nasa.gov/electron_beam.htm#][http://www.youtube.com/watch?v=oRL4cBbKYb8][http://mfile.akamai.com/18565/wmv/etouchsyst2.download.akamai.com/18355/wm.nasa-global/nasaaero/podcast_16.wmv].
+
+An electron beam based printer was chosen due to the ability to print its self, the power efficiency of an electron gun vs. a powerful laser at fusing metal, and the fact that an electron gun and vacuum chamber are the primary requirements for thin film solar cell printers. It was recognized that the printer did not require a new technological invention, but does require the existing solutions to become publicly accessible through grassroots research and re-engineering.
+
+One of the goals is a '''solar cell production plant''' design that MetalicaRap will be able to print, that will utilize MetalicaRap's vacuum chamber and beam for the solar cell manufacturing processes[http://en.wikipedia.org/wiki/Copper_indium_gallium_selenide_solar_cells]. For a typical family home electrical system we may bring the solar cell cost down from 10,000 euro to 400 euro by self printing. (Solar cell installation, inverter, and other costs would obviously be on top of this price).
+
+21% of all solar cells manufactured used the CIGS process (2011) [http://en.wikipedia.org/wiki/Copper_indium_gallium_selenide_solar_cells]  [http://www.pv-magazine.com/news/details/beitrag/2011--277-gw-of-pv-installed-full-potential-of-many-markets-unfulfilled_100005589/#axzz2T5Z8npDd], it works at the same vacuum of 10-4 Torr as the metal printer, by creating [http://en.wikipedia.org/wiki/File:CIGSdevice.JPG metal layers] by directly co-evaporating readily available targets [http://www.youtube.com/watch?v=ZN7NZYXGSbk Video] of; copper gallium mix, copper indium mix, selenium sulfur mix[http://www.indium.com/thin-film/], molybdenum backing layer, tin oxide front contact onto a heated substrate with a chemically dipped buffer layer and a front copper alloy electrical collector strip . This CIGS [http://en.wikipedia.org/wiki/Copper_indium_gallium_selenide_solar_cells] thin film manufacturing process will consist of electron beam physical vapor deposition[http://en.wikipedia.org/wiki/Electron_beam_physical_vapor_deposition] (EBPVD summary material [http://www.cleanroom.byu.edu/TFE_materials.phtml])Other precursor choices including Indium Gallium Nitride may also be possible [http://www.mse.mtu.edu/~pearce/Past.html#Indium_Gallium_Nitride_Materials_and][http://www.greentechmedia.com/articles/read/is-the-window-closing-for-thin-film-pv] [http://www.nrel.gov/docs/fy09osti/45544.pdf]. 
+
+Please email to the forum suggested changes to this page and an administrator will implement them.(due to section deletions)
+
+__TOC__
+
+<div id="mainPage.news" style="border: solid 1px #aaaaaa; padding: 0px;">
+<h2 id="mainPage.news.title" style="background:#eeeeee; font-size: 105%; line-height: 120%; font-weight: bold; padding: 0px; margin:0px;padding: 0.4em;">
+[[Image:20px-Exquisite-khelpcenter.png|frameless|right]][http://forums.reprap.org/feed.php?215 Forum/Mailing List]</h2>
+<div id="mainPage.news.text" style="padding:0px 10px 10px;">
+{{#widget:Feed
+|feedurl=http://forums.reprap.org/feed.php?215,replies=1,type=rss
+|chan=n
+|num=5
+|desc=0
+|date=y
+|targ=n
+}}
+</div>
+</div>
+
+==Introduction==
+
+Congratulations Aleksander he has made'''the first home build electron beam welder'''!! See starting at 27:11 in this video:
+
+{| width="90%" align="center"
+| align="center" | <videoflash type="youtube">4OVaqTvh-pw</videoflash>
+|}
+
+[http://tubedevices.com/alek/index_e.htm Aleksanders home page] [http://ew-gds.com/wp-content/uploads/2015/03/Booklet-for-IGDSS2014.pdf Aleksanders weld notes See p32]
+
+We are now 18 months into the development of a printer capable of printing in all common metals,which can largely print itself. 
+
+====Why an Open Design?====
+
+Currently few commercial companies give away the ability to manufacture their own product to the customer(googles "free search" business model comes closest and also Mendel see below). MetalicaRap does through self printing, which is why this project needs volunteers initially giving their time, effort and charitable contributions via crowd funding. This price reduction method and empowerment model has been shown to work with a plastic printer in 2009 bringing the price down by a factor of 60 (30,000 euro to 500 euro kit price Mendel http://reprap.org/ http://en.wikipedia.org/wiki/Adrian_Bowyer award wining inventor). 
+
+====What are the benefits?====
+[[file:Moraiyama_Metal_House_Japan.jpg|thumb|right| Metal Fabricated Home Japan SANAA 2005 ]]
+
+[[file:Gun_ExplodedRhunt.jpg|thumb|right| A low power gun build example]]
+[[file:Spot2Rhunt.jpg|thumb|right| Low power gun in operation.. See [http://www.teralab.co.uk/Experiments/Electron_Optics/Electron_Optics_Page1.htm] ]]
+Metal printing a titanium structural element including a vacuum envelope for heat insulation with a solar coating, along with glass elements for electrical insulation or window inserts and printing copper for electrical conductors. A home solar cell printer will enable a whole set of new possibilities via near free electricity including: Solar Jewelry ,Solar Bike,  [http://zerohouse.net/wordpress/what-is-zerohouse Zero house] utilizing self printed titanium Vacuum panels [http://www.patentbuddy.com/Patent/5175975], water supply from air condensing, [http://www.aljazeera.com/video/asia/2012/06/20126512515491644.html home tropical greenhouse/Plant factory], along with the well known environmental benefits of solar power for heating and lighting being a factor of 25-45 times cleaner than traditional fuels [http://www.area-alliance.org/documents/carbonfootprint.pdf][http://onlinelibrary.wiley.com/doi/10.1111/j.1530-9290.2011.00423.x/abstract].
+
+Metal printing has obvious benefits for reducing transport costs.Later MetalicaRap may effect accommodation costs [http://www.viewpictures.co.uk/Details.aspx?ID=147524&TypeID=1 Japanese metal home] moving beyond high status cultural applications [http://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall Walt Disney Concert Hall],  through reducing metal refinement and manufacturing costs, by replacing foundry processes by processing its own billet metal in to metal powder through electron beam melting on to a spinning disk within MetalicaRap, an established method[http://www.patentbuddy.com/Patent/4218410][http://www.google.co.uk/patents?hl=en&lr=&vid=USPAT4218410&id=rr4vAAAAEBAJ&oi=fnd&dq=metal+powder+beam&printsec=abstract#v=onepage&q&f=false]. 
+
+Titanium powder may come down by a factor of 25 to 6 euro per kilogram (2012) as titanium's last refining step, vacuum distillation of titanium sponge, which is Electron beam melting under a vacuum of "Titanium Sponge" also known as  EBCHR is the identical process to MetalicaRap's[http://www.nssmc.com/en/tech/report/nsc/pdf/8507.pdf] as is the centrifugal powderisation process of  titanium by electron beam melting of a feed rod of  titanium which drips on to a spinning disc [http://www.patentbuddy.com/Patent/4218410].
+
+Few large commercial companies will compete with MetalicaRap products as Titanium's durability (100's of years) means that it is not in their interest to, as they may see it as "destroying" their own resale market.Yet through branding and short lived fashionable product design some large companies will try to maintain  high product redundancy rates.
+
+MetalicaRap may be one of the very few  environmental solutions that largely overcomes "energy cannibalism" [http://www.mse.mtu.edu/~pearce/Past.html#Energy_Cannibalism Energy Cannibalism Explanation]
+
+====Why should I help?====
+
+There is no technological block to the success of this project, but it requires the engineering solutions to happen within an open hardware cultural context to succeed, a group of technical specialists volunteering there time and effort, along with crowd funding. We have had involvement 6 part time specialists based in Copenhagen, Geneva (x-Cern), California (x-stanford), and Toronto volunteering part time in areas including electron gun design, currently we have 2 specialists consulting for us. The more people involved on a non-specialist  task level will bring the project forward quicker. 
+
+Critically MetalicaRap may offer the ability to largely print the most expensive parts so may enable the price of the solar cell printer to fall by a factor of 100, so to be within the home budgets grasp. (printing the electron gun is equivalent to printing a 600W fiber laser in a Selective Laser Sintering machine, this guns function is to melt metal on a build platform to producing metal thin film solar cells and metal parts)
+
+For now the self replication will not include the vacuum chamber.The power supply is under construction from bought in parts. One pump will initially be purchased, and as the design progresses further parts will be self printed.
+
+If you would like to help and knowing that MetalicaRap's design development details do not fit in one persons head, please specialize and take ownership of a specific task from below or contact us via the mail forum.
+
+Towards this aim of reaching further volunteers we would really appreciate the inclusion of the below within your member contact newsletter in a form that suits your organization.
+
+Kind Regards
+MetalicaRap team
+
+====Design criteria====
+
+The printer should have the following characteristics:
+* A build volume of about 30cm x 30cm x30cm (prototype will be a cylinder print area usable diameter 24cm, height 30cm as this is min that can still print babies)
+* Produces finished parts +/- 20 µm over 20mm
+* Finished parts should be the metallurgical equivalent to wrought iron milled metal parts(full strength, >98% density)
+* The printer is largely ''self reproducing''(i.e. it can ''print many of its own parts'')
+* Single Phase electrical kittchen supply 
+* Minimum consumables beyond metal powder (avoiding need for e.g. argon gas when clearing chamber with active metals would be an advantage for later designs)
+* Cost for parts which it cannot itself print plus the raw material for printable parts is ''less than the cost of a used car'' (self replication plus self build kit may reduce the price by approximately 100 times i.e. from the existing price of a metal 3D printer or solar cell plant; 1,000,000 euro price tag,to 10,000 euro self print/kit price).
+* The build-rate can be slow i.e. min rate is 0.2 kg per hour (In practice largest printable assemble of Titanium parts wieghs 1000Kg per MetalicaRap equivalent to 2000Kg of steel per annum).
+* Max height should be 2.4m so it can fit in a home. ( first/simpler to construct prototype will be taller than this until we know how much we can bend beam while maintaining spot size, the bigger the bend the shorter it will become)
+* Shape and size of vacuum chamber and electron gun power rating should be suitable for Solar Cell Printing(300W).
+
+====Essential reading==== 
+[http://blog.netfabb.com/index.php?bid=36 Introduction Existing Commercial Electron Beam 3D printer 2min video], [http://www.youtube.com/watch?v=ZN7NZYXGSbk Solar cells by co-evaporating 4 metals on top of each other & some ancillary layers video] creating  [http://en.wikipedia.org/wiki/File:CIGSdevice.JPG Copper/Indium/Gallium/Selenium layers ], [http://p2pfoundation.net/Factory_At_Home Factory at home],People locally developing solutions for local problems while being [http://usfln.org/ connected globally] and for those who have everything developing technology for a market of one! personal fabrication as a way to take control and as an aid for identity  [http://www.youtube.com/watch?feature=player_embedded&v=5n-APFrlXDs#!] ,[http://www.youtube.com/watch?v=X_1PpBMtGrA&feature=related A commercially Printed Rocket Engine Takes Flight in USA! See here at 2:40].
+
+====Crowd Funding Support of MetalicaRap====
+We are currently raising money to make a RepStrap version of MetalicaRap.
+
+We need an estimated 50K euro, and have so far raised over 8000 euro.Donations over 100 euro recieve a MetalicaRap Printing Certificate. We are aiming for a final kit parts price of  9K to 13K euro (eventually through mass production of electronic boards and self printing pump and chamber glass tube kit of parts may come down to 6K euro).
+
+You can donate money:
+* via paypal to MetalicaRap@3iii.dk
+* or bank transfer. Please write an email to MetalicaRap@3iii.dk for details of MetalicaRap committee managed account. 
+
+There are many other ways you can help further the development of MetalicaRap. Please read this page to get an idea of current development status. We can be contacted on [[IRC|the RepRap IRC channel]], MetalicaRap@3iii.dk, or best at [http://forums.reprap.org/list.php?215 RepRap MetalicaRap forum].
+
+====Current status====
+
+We are based in Copenhagen Denmark at Labitat.dk  our main engineers are also  in Lancashire UK. Wednesday night you can come to Labitat in Frederiksberg, Denmark and meet the team. Currently electron gun test rig and repstrap vacuum chamber, including pumps and gauges under electrical maintenance.
+
+Get involved! The current team donates their free time, Current part time tech team; 1 Administrator, 2 software developers UAL, 1 electrical engineer and 1 physicist all part time
+(Very occasional advice from; 1 Ultra-high vacuum metal deposition specialist, 2 physicist, 1 High-voltage system designer, 1 mechanical Design Engineer). 
+ 
+Do get in touch. See [http://forums.reprap.org/list.php?215|the talk page and forum] for more discussion.
+
+====Main design spreadsheet====
+
+Contact: click [http://forums.reprap.org/list.php?215 here] Rapatan
+
+[[File: Gun Coil Pump Cost calculator MetalicaRapReadOnly.ods]] This is MetalicaRap's master spreadsheet click on to download.
+
+Please send your additional calculations for the above spread sheet to the email forum above.
+
+==General Design==
+
+====Philosophy and technical considerations====
+
+"Since Jones and Swainson many other techniques for rapid prototyping have been developed. Three of the most significant are selective laser sintering (SLS), filament deposition modeling (FDM), and the MIT powder/ink-jet-glue process. A rapid prototyping machine that can make most of its own component parts will clearly be easier to design if one avoids things like high-powered lasers; having the machine make a laser from scratch would be difficult. More subtly, ink-jet print heads (though cheap) are intrinsically hard to make as they involve micro-fabrication, and so a machine based on them would be unlikely (in the medium term) to be able to liberate itself from that one bought-in part." [http://reprap.org/wiki/PhilosophyPage] Adrian Bowyer
+
+Even though SLS was one of the 3 major contenders for the reprap machine, it was rejected due to the difficulty of self manufacturing the laser.Using an electron beam may offer easier self manufacture, due to it largely consisting of 3 simple elements; a cathode metal ring, an anode metal tube and a hot wire. 
+
+Another key issue is producing verified, dimensionally finished parts. Commercial metal powder printers, both laser and electron based, can not measure the individual parts they produce during production, unlike conventional machining methods. MetalicaRap could due to the inclusion of a layer by layer measuring system (stereo, 3d scanning electron microscope).
+
+The challenges of  Z axis control is expected to be greatly helped by the vision system and z axis correction method EBM/vaporization(Vision systems are currently in development stage on state of the art commercial machines.)
+
+Its important to point out that this is a complex and in the 1000's of euro price range project. Your largely self producing printer is possible in the commercial setting with either laser or electron beam printing parts, but due to the power transfer inefficiency from wall socket to most common metals via lasers being 50 times worse than in electron beams, available home lasers would print too slowly for practical self reproductivity. A typical CO2 laser to copper energy transfer efficiency is 1.6%, so 400W energy into the metal therefore requires a 25000 W laser -- current home build lasers are considered large at 30W (an exception to this is YAG laser to steel: 10%  metal absorption of laser page 27 fig.3 [http://epubl.ltu.se/1402-1544/2008/08/LTU-DT-0808-SE.pdf]wall plug to laser efficiency[http://www.rp-photonics.com/wall_plug_efficiency.html]). Therefore lasers would limit the achievable part size to 10's of cm3 (e.g. 3cm x3cmx3cm) with a 2 day print duration, which makes it impracticably slow for self replicating printers (try our Laser 808 Build Speed Calculator from this [http://reprap.org/wiki/Laser_Build_Speed_Calculator]).
+
+So the electron gun is still likely to be quite a bit easier to build for the same power level. Especially as long as complications due to magnetic forces, grounding, X-ray radiation, and calibration do not turn out to unsurmountable problems. We do not expect them to. Also, its likely that subtractive machining is needed. Commercial printers report being able to produce finished parts for jet engines and medical implants etc. without it, but granted maybe there are details the manufacturers don't put on their web sites. 
+
+Due to lack of control in metal powder deposition and molten metal forming droplet/distortions in conventional ebeam 3D printing (e.g  Arcam 3d) a tolerance of 300µ in the Z axis is typical with 10µ powder. Finer powders are prone to magnetic forces and typically unwieldy, though powder demagnetization and non ferrous construction is a possibility. This demands an error correction which is based around a vision system using a 4-sector, independent channel axial Back Scatter Electron detection (BSE) Scanning Electron Microscope (SEM) combined with image processing.  The pseudo stereo SEM picture data can be converted  to true 3D dimensional data (asymmetrical 4-source BSE photometric stereo 3D-imaging), enabling sub µ metal height measurements. Z axis dimensional mistakes in any particular layer can be found and corrected by removal of high points through electron beam machining of the metal. From discussions with industry experts we may bring the XYZ axis error to 20µ over 20mm (IT grade 7 See IT grade table [http://www.engineersedge.com/international_tol.htm here].)
+
+====Advantages of current chosen design approach====
+
+*Fully functional parts directly from standard metals
+
+*For most parts it may offer dimensionally finished metal parts IT grade 7   
+
+*Good metallurgy on  all common metals (Melting process rather than sintering process ensures near 100% of solid material)
+
+*Closed loop system
+**Self measurement of finished part tolerances.
+**May offer automatic self correction (subtractive machining steps during build process and feedback with compensation used in the additive process).
+
+*Eventual additional Benefits; 
+**Can print thin film CIGS '''Solar cells''' in existing 10<math>^-</math><math>^4</math>vacuum chamber with existing electron gun. Will be able to self print additional required parts for solar cell printer.
+**Can create its own metal powder from scrap metal.
+**Can finish the refining process for titanium metal by melting titanium sponge, which may lead to a 25 fold reduction in the titanium price.
+
+====Disadvantages of current chosen design approach====
+
+*Vacuum chamber needs  on going maintenance.
+
+*Given the quantity and quality of metal/materials used in 10-4 torr vacuum chamber construction  they may have high cost or be hard to obtain in third world setting. (Limited outgasing required, more info: [http://www.ece.ualberta.ca/~schmaus/vacf/outgas.html][http://outgassing.nasa.gov/cgi/uncgi/search/search_html.sh])
+
+*Difficultly in managing metal powders, indicated by the need to  have layer error correction, Problem area's including; powder layer flatness, metal meniscus blob formation, metal powder trapped in work piece (i.e. designed internal closed cavities, designed internal porous or honeycomb structures most likely impossible without additional processing or work on the part after printing).
+
+*Quality Control may be a hurdle to overcome - on the fly heat treatment process development (to overcome residual stress present in the first few layers) may be desirable but optional.  Layer by layer temperature measurement is one way for metallurgical quality assurance. Currently multiple printed and tested tensile test samples are used to prove most processes. This is a problem in general for additive manufacturing of all sorts at present.  
+
+* Adequate surface finish may require post processing, depending on the purpose of the part.Later by the addition of argon we could do electronbeam polishing[http://en.wikipedia.org/wiki/Electron_beam_technology].
+ 
+* Non-desktop size wardrobe size,chamber volume approx 0.3m cubed.
+
+*As most of the electron gun chamber is 6mm thick 304L stainless steel it provides good Xray shielding, but areas of vacuum chamber made of  normal unleaded glass, viton orings and copper gaskets require futher xray shielding the low tech solution being a brick lined apparatus box or 80mm  thick concrete, (equivalent to 1mm of lead shielding or 70mm of aluminium shielding (See below for shielding calculation)
+
+==MetalicaRapBaby== 
+
+MetalicaRapBaby design includes notes for self printing version and all the notes for electron gun design. For details, see [[MetalicaRapBaby]].
+
+==Background Technical design considerations==
+
+====Construction Materials====
+
+Materials:
+* Electron gun wall stainless (ESR) 304 L: Pipe cold rolled 304L, [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf p.243]
+
+*Metals for cathode/1st anode-Wehnelt/anode electrodes (tungsten/molybdenum/tungsten or pyrolytic carbon).
+
+*Metal for "soft iron core" surrounding the two lens coil windings: unalloyed soft iron. For yoke and polepices use a soft iron, like AISI 1006.
+
+*Interlens X Y-deflection coils made from Aluminium 6063. All the X deflection couils will be interconnected, with the first toroid wound in opposite direction from the second and third toroids and the Y deflection coils similarly connected.
+
+*Thermal conducting material for anode support structure that extends through the middle of the anode support:Copper then 304L (ESR)sleeze for gasket knife edge seal, 304L(ESR) for Wehnelt support , see [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf p.246]. Cathode filament can be flat wound bulb filament (or ribbon 2mm wide 0.254mm thick copper infused tungsten.
+
+*Ceramic insulators, you can use either mullite or alumina. Avoid stuff like teflon (is a sponge for water, and outgasses too much) or macor (machinable glass -- too delicate). Your shoulder washers in electron gun support are standard commercial items. Costly Electrical feedthoughs specialist items replaced everyday glass items e.g. test tubes plus viton O rings.
+
+Finishes:
+Not critical, see below for details
+
+Matirials to aviod:
+*Avoid zinc, magnesium, and lead, as these don't have negligible equilibrium pressure at temperature, i.e. out gass too much at elevated temperature. For example avoid brass as out-gasses intensely when it gets hot, which can lead to ionization and flash overs, see [http://www.cientificosaficionados.com/libros/CERN/vacio19-CERN.pdf p.237].
+
+====Powder and metalurgy issues====
+
+NASA is also making their own machine but with wire not powder. The 1 hour lecture is a good introduction to the metallurgy involved in EBM, see [http://mfile.akamai.com/18565/wmv/etouchsyst2.download.akamai.com/18355/wm.nasa-global/nasaaero/podcast_16.wmv here]. (If this does not work then go to http://www.aeronautics.nasa.gov/electron_beam.htm#  Select ''windows streaming'' in main page, then Windows Streaming Video then ''+window streaming'' in pop up window, some other selection options come up with the wrong video).
+
+Play with this [[MetalicaRap Build Speed Calculator|Online Design Tool: Build Speed Calculator for metals]] build speed software we have written and then you get a good idea of which metal you want to start with.
+
+The initial test run prints will be made  in stainless steel 30µ (Pre cool final printed parts from this powder is therefore likely to achieve a tolerance of 250µ) and  chromium cobalt under  50µ  30µ?( Pre cool final printed parts from this powder is therefore likely to achieve tolerance of 250µ)metal powder [http://www.matweb.com/search/DataSheet.aspx?MatGUID=063cc43071304251825aee8f7366acc7]supplier[http://www.smt.sandvik.com/osprey],  and then later the challenges of Titanium 4µ powder will be considered (Pre cool final printed parts from this powder is therefore likely to achieve tolerance of  '''20µ'''). See article on micro sls [http://www.micromanufacturing.com/showthread.php?t=630]. See example machine [http://www.eos.info/fileadmin/user_upload/downloads_presse/MLS/Micro-Laser_Sintering.pdf],See example of twin chamber 3D printer[http://www.youtube.com/watch?v=iVPmrRCc7_U&feature=player_embedded#at=245]. Though through subtractive machining we may be able to bring critical surfaces of most of parts down to 20µ. stainless is 316L grain size -45µ+10µ product purpose 3D printing good fluibility, 60gbp a kilo best price 80 kg per buy delivery 3 month. Powder is manufactured from cold rolled metal (e.g. 304  approx 1.8 Euro a KG 07/20111) by Electron Beam Melting of a rod of feed material which then is momentarily caught on spinning  plate and flung thereafter, thereby solidify by cooling. See[http://www.patentbuddy.com/Patent/4218410] [http://www.google.co.uk/patents?hl=en&lr=&vid=USPAT4218410&id=rr4vAAAAEBAJ&oi=fnd&dq=metal+powder+beam&printsec=abstract#v=onepage&q&f=false]
+
+The magnetic metals lead to magnetizing of iron based metal powders so should be avoided where possible, the main magnetic metals are iron, nickel, cobalt and some of thier alloys. 
+
+The metal powders are not good to ingest or breath in so a mask should be worn. The metal powders may get caught in the fine folds of your skin so gloves should be worn.  
+
+All metal powders burns easier than solid blocks and some of them are a fire hazard. The active metals are most flammable and difficult to handle: Titanium 4µ, other active metals include aluminum, zirconium, then the moderate range metals e.g. cobalt chromium 50µ and finally low range stainless steel 30µ. General fire avoidance should be followed, avoid sparks and open flames, avoid dust clouds, e.g. through dumping action of powders, and use appropriate tools. 
+Design principles of fire avoidance should include: appropriate grounding of equipment, avoiding excess mechanical friction in design. For active metals consider a glove box contained nitrogen clean up environment or just a liquid based vacuum cleaner.
+The number of electrons, the velocity of electrons and the beam diameter all effects the resultant melting and penetration. Putting  the focal point within the metal gives more penetration, while placing it above the metal spreads the beam and gives a wider melt pool. Beams with higher electron current penetrates deeper and inputs more heat, yet less current with higher velocity electrons gives less heat input and less penetration. 
+
+The first layers are tricky to print; the first layer must weld well to metal base to stop part warping, because cold platform contact hot metal residual stress tries to snap build platform so build platform needs to be thick to resist this force, must also need to be reusable after each print must be milled. (Carification needed)
+
+Cost reduction by pre-processing milling metal into metal powder within MetalicaRap through electron beam melting on to a spinning disk is also achievable later. For a particular steel unprocessed it costs about 0.5 Euro/kg, but traditional metal stock for milling machining costs 20 Euro/kg, for  metal powder up to 60 euro/Kg, these raw material pre-processing costs may reduce to 1Euro/kg by self processing.
+ 
+Pros and cons of 3d metal processes [http://www.additive3d.com/tl_tab2.htm](see below for link comparing tool head processes for more detail)
+
+====Safety issues====
+
+In your old fashioned television (C.R.T.) the acceleration voltage was 30kV, as long as you kept the electrons inside the tube it was not a problem, people sat in front of it for 40 years with no ill affects. MetalicaRap keeps the electrons and the targets within a glass or metal box. The safety limit is defined as  "Generator Cabinet. Each x-ray generator shall be supplied with a protective cabinet which limits leakage radiation measured at a distance of 5 centimeters from its surface such that it is not capable of producing a dose in excess of 0.25 millirem (2.5 µSv) in one hour"[http://www.crcpd.org/SSRCRs/hpart.PDF]
+ 
+4.59\times 10^{-6}\frac{10^6\times 0.063}{0.05^2\times 81.7}(1 - e^{-\frac{81.7}{81.7}}) = 4.47 \mu Sv/hr 
+
+So with no shielding this is twice 2.5 µSv per hour limit, so 50 percent attenuation is required by shielding to reduce the 4.47 \mu Sv/hr  to 2.23 \mu Sv/hr  now under the limit . In order to ensure safety we have chosen to over-shield Metalicarap by having  99.35 attenuation(64 times more than required), as this attenuation is already provided by the structural thickness of electron gun chamber(see below for more details).
+
+==General Information==
+
+====Solar cell thin film deposition====
+
+Thin film deposition summary by material  [http://www.cleanroom.byu.edu/TFE_materials.phtml] RF sputter is another option for increased solar cell production rate  [http://www.msi-pse.com/magnetron_sputtering.htm] uses the electron beam to resonate  a cavity  to produce an RF magnetron) .
+
+====Green Tech./Solar Cell production cost calculation====
+
+To produce thin film CIGS solar cells at under 11 cents per Watt peak.So Solar cells cost for a family 3 Bed house;  Average Electricity usage 4200KW per year,  4200KW/365days*4.93 Equivalent Hrs peak sunshine= 4200KW/1800Hrs=2.3KW peak of solar cell panels required, at 11 cents per Watt peak the solar cell's  would cost  253 dollars from MetalicaRaps plant plus cost of backing material, cost of  inverter plus extras 1300 dollar, so it may offer an uninstalled system at under 1,900 dollars,( current price for uninstalled system is  around 14,000 dollars (jan 2011)). (Calculation based on cloudy areas of world, 1KWatt  peak solar  panel system  under  4.9 hours peak sunshine per day  gives approx 1800KWh per year, A desert area at low latitude would be up to twice as good as this.)( For reference in a hot climate a 1.25 dollar/W installed financed system gives ;0.07 dollar/KWh over 20yrs, 0.03dollar/kWh  over 60 yrs [http://solarcellcentral.com/cost_page.html])
+
+====Useful links====
+
+EBM introduction [http://books.google.com/books?id=f7Uj1uTwkosC&lpg=PA19&dq=ebm%20advanced%20methods%20of%20machinin&pg=PA1#v=onepage&q&f=false]
+
+Images EBM / EBW [http://www.google.dk/images?as_q=ebw+welding+equipment+EBW+EBW&um=1&hl=en&client=firefox-a&rlz=1R1GGLL_en___DK361&biw=1205&bih=537&btnG=Google+Search&as_epq=&as_oq=&as_eq=&as_sitesearch=&safe=off&as_st=y&tbs=isch:1,isz:m]
+
+General background Videos EBW see here [http://www.youtube.com/results?search_query=electon+beam+welding+-laser+&aq=f] 
+
+Back ground Information on Electron beam processes; electron beam welding / vaporization , [http://www.arcam.com/technology/ebm-process.aspx   EBM 3D printing], 
+
+Scanning electron microscope (3)(4).
+
+More technical sites
+
+[http://www.matter.org.uk/tem/sitemap.htm Introduction SEM background]
+
+[http://www.uga.edu/caur/semindex.htm SEM Detail background]
+
+General practical  technical information; Power supply; Transfomer winding  [http://ludens.cl/Electron/trafos/trafos.html]
+
+.General practical  technical information; Feedthrough glass joining ways to adjust your glass items in your test tube based electrical  feedthroughs and insulate/construct with bead glass between electrodes. [http://www.teralab.co.uk/Glass_Blowing/Glass_Blowing_Menu.htm][http://www.youtube.com/watch?v=MsMsZaSz3Fk&feature=endscreen&NR=1], Glass tube to metal tube connection[http://www.youtube.com/watch?v=OWw32BLodjY]
+
+General practical  technical information;Electron gun / CRT tube salvage ; Explanation of how to take apart a cathode ray tube electron gun to salvage Wehnelt molybdenum disk with hole in ( the first disk  in front of the hot wire cathode) a tv CRT [http://www.youtube.com/watch?v=-QOxLRLDVeg] note you can diamond file/diamond saw break the pip on the very back of tube to release the vacuum then reseal with blow torch to keep the electrical feed-throughs functional. Another example of a old CRT oscilloscope.[http://www.youtube.com/watch?v=E55h2JCuCWk&feature=endscreen&NR=1] .
+
+Conventional Helium detector explanation [http://www.youtube.com/watch?v=oBFsKk1l8CY]
+
+Self Replication Engineering Options See section 2. [http://reprap.org/wiki/PhilosophyPage].
+
+EBM technical background lecture See here [http://www.youtube.com/watch?v=pkikv0RHWTA]
+
+General background Videos EBW see here [http://www.youtube.com/results?search_query=electon+beam+welding+-laser+&aq=f]
+
+[[MetalicaRap:Tool head processes discussion]]
+
+====Futher Reading====
+
+Vacuum chamber principles; Essential reading before you weld/construct your vacuum chamber, Basic Vacuum technology by Varian
+
+Maths behind vacuum processes (Not for the faint hearted )[http://docs.google.com/viewer?a=v&q=cache:oIlQ1cey5yQJ:zumbuhllab.unibas.ch/pdf/talks/MansVacuumNotes.pdf+vacuum+physics+material+science&hl=en&gl=dk&pid=bl&srcid=ADGEESh6L323mTiDmDbh3uHYCYx4luqsvo2eRLJHaq3R1lj176XOY2DbiNZCQ6Mq4jaHoEI783knjLYDt2XKxdqh5dEBzOv15OMcFBpFiXN0ws-M-43Nyf6LYcKxjqQUgt2x2maR7Tu_&sig=AHIEtbQY7ktBkw6CyfbW_6ky_GHkxrZyuA]
+
+
+[[MetalicaRap Build Speed Calculator|Online Design Tool: Build Speed Calculator for metals including Aluminum,Stainless,Tungsten]]
+
+----
+----
+
+=='''The Following Sections Are For Actual Builders Only Please Ignore If Your Not Actually Building'''==
+
+
+-
+-
+-
+-
+-
+-
+-
+
+
+
+
+
+
+
+
+
+
+----
+----
+==Drawings and Photos==
+
+MetalicaRap V3.00
+[[File: Gun Coil Pump Cost calculator MetalicaRapReadOnly.ods]] This is MetalicaRap's master spreadsheet click on to download.
+Remember you can download the main assembly301 shown below and open it directly in freecad, from the file and parts section.
+<gallery widths=150 heights=150>
+File:Assembly301_a.JPG|MetalicaRap V. 3 
+File:Assembly301_b.JPG|MetalicaRap V. 3 
+File:Assembly301_c.JPG|MetalicaRap V. 3 
+File:Assembly301_d.JPG|MetalicaRap V. 3 
+File:Assembly301_e.JPG|MetalicaRap V. 3 
+File:Assembly301_f.JPG|MetalicaRap V. 3 
+File:Assembly301_g.JPG|MetalicaRap V. 3 
+File:Assembly301_h.JPG|MetalicaRap V. 3 
+File:Assembly301_i.JPG|MetalicaRap V. 3 
+File:Assembly301_j.JPG|MetalicaRap V. 3 
+File:Assembly301_k.JPG|MetalicaRap V. 3 
+File:Assembly301_l.JPG|MetalicaRap V. 3 
+File:Assembly301_m.JPG|MetalicaRap V. 3 
+File:Assembly301_n.JPG|MetalicaRap V. 3 
+File:Assembly301_o.JPG|MetalicaRap V. 3 
+File:Assembly301_p.JPG|MetalicaRap V. 3 
+File:Assembly301_q.JPG|MetalicaRap V. 3 
+File:Assembly301_r.JPG|MetalicaRap V. 3 
+File:Assembly301_s.JPG|MetalicaRap V. 3 
+File:Assembly301_t.JPG|MetalicaRap V. 3 
+File:Assembly301_u.JPG|MetalicaRap V. 3 
+File:Assembly301_y.JPG|MetalicaRap V. 3 
+File:Assembly301_x.JPG|MetalicaRap V. 3 
+File:Assembly301_z.JPG|MetalicaRap V. 3 
+File:Assembly301_v.JPG|MetalicaRap V. 3 
+File:Assembly301_w.JPG|MetalicaRap V. 3 
+
+</gallery>
+
+
+MetalicaRap V2.00
+<gallery widths=150 heights=150>
+File:Assemble MetalicaRap_vers._2.0.jpg|MetalicaRap V. 2 
+File:Gun coil section side view MetalicaRap_vers._2.0.jpg|Gun & coil section side view 1:2 - [[File: Gun coil section side view MetalicaRap_vers._2.0.pdf]]
+File:Hopper sense ring MetalicaRap v2.jpg|Hopper sense ring section side & plan view 1:2 - [[File: Hopper sense ring MetalicaRap v2.pdf]]
+File:Build platform MetalicaRap v2.jpg|Build platform piston section side view 1:5 - [[File:Build platform MetalicaRap v2.pdf]]
+</gallery>
+
+For further drawings click here [[MetalicaRap Photos and Drawings]]
+
+==Costs and technical calculations spreadsheet==
+
+[[file:Gun Calculation MetalicaRap_vers._2.jpg|thumb|right| Gun Calculator, download MetalicaRapReadOnly.ods  left side  ]]
+[[file:Lens coil Calculator MetalicaRap_vers._2.jpg|thumb|right| Lens Coil Calculator , download MetalicaRapReadOnly.ods above left side ]]
+[[file:Costs MetalicaRap_vers._2.jpg|thumb|right| Large part costs, download MetalicaRapReadOnly.ods above left side ]]
+
+[[File: Gun Coil Pump Cost calculator MetalicaRapReadOnly.ods]]  this is metalicarap's master spread sheet click on to download.
+
+==Files and Parts==
+
+MetalicaRap V3.00
+[[File: Gun Coil Pump Cost calculator MetalicaRapReadOnly.ods]] This is MetalicaRap's master spreadsheet click on to download.
+
+MetalicaRap assembly 3.01 is a  .stp format file packed as zip, unzip and open in freecad (see notes below)[[File: assembly301.zip]]
+
+Cathode bulb extraction tool in two different flavours for assembly301 bulb extraction, .stp format file packed as zip [[File: clawbulbextractiontool.zip]] [[File: pipebulbextractiontool.zip]]
+
+(A 23.45 degree bevel on parts indicates interal TIG Weld with no filler construction, Dark metal parts are 1006 carbon steel, light metal parts are 304L stainless ESR (Electro Slag Remelt) except for Aluminium 6063 vacuum chamber base and external deflection coil supports which is also light colored metal. Light bulb is in white. The remaining parts; copper anode support, brass securing ring for seals on electrical feedthroughs, glass, Viton O rings (for seals and for cushioning between glass and metal), Green printed circuit board (used as insulator), white Alumina oxide insulating washers, pyrolytic carbon (Wehnelt electrode & baffel),Kovar conductor stick with Borosilicate glass bead attached for base electrical Feedthrough (Single-Lead) Al6063 base and 0.1mm mica sheet are shown realistically. Refer to section drawings above for part color material identification)
+
+SMPS insulators ( ensure G code objects have solid walls in nylon) [[File: Nylon1 elements of smps assembly v1p00.stl]][[File: Nylon2 elements of smps assembly v1p00.stl]][[File: Nylon3 elements of smps assembly v1p00.stl]]
+
+
+
+
+New PCB's TBA
+
+
+Schematic PDF showing how the above boards are connected [[File: Schematic power supply.pdf]]
+
+Schematic 1KV power supply  [[File: SMPS1kv.pdf]]
+
+Freecad compatible file of SMPS's assembly including Nylon parts [[File: Smps_1KV_&_63KV_assembly_scale_1_to_1_with_pcb.FCStd.tar.gz]]
+
+
+
+Click on the blue file names above to download the above files
+
+'''Freecad installation''' the above downloadable files only work on the daily development version on the latest Linux ubuntu trusty! (see below instructions)
+
+(The latest version of freecad is required to open the assembly 301 file above, the latest version is called Freecad-dev (the daily updated version of freecad only runable on the latest ubuntu linux,  called linux  ubuntu trusty (no windows or OSX supported currently)), this is achieved by installing the PPA from https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-dailyfreecad-dev by adding its package name PPA "ppa:freecad-maintainers/freecad-daily"  , simplest method is  install synaptic package manager  on linux ubuntu trusty and add PPA above to list and update packages,  or follow instructions on site[https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-dailyfreecad-dev]) 
+
+'''Kicad installation''' as of march 2014 has got a great new large component/module library which are unfortunately not backwardly compatible so you have get a version of kicad after 31.04.14 [http://packages.ubuntu.com/utopic/kicad] for the above files to work. (See method below).
+
+(The easiest way to run the above kicad files is to build an ubunto system.Instructions; Download & run  RUFUS to make a usb stick boot able // then down load ubunto on to usb stick, install ubunto from usb after reboot, then you also need the latest (i.e. development version) ubunto  so in a terminal> sudo apt-get update ; sudo apt-get upgrade -d       then need latest kicad [http://packages.ubuntu.com/utopic/kicad] in terminal > sudo apt install Kicad     )(It can be usefull to look at Kicad 3D files in freecad. The latest version of freecad is required called Freecad-dev (the daily updated version of freecad only runable on the latest ubuntu linux,  called linux  ubuntu trusty (no windows or OSX supported currently)), install the PPA from https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-dailyfreecad-dev by adding its package name PPA "ppa:freecad-maintainers/freecad-daily"  , simplest method is  install synaptic package manager  on linux ubuntu trusty and add PPA above to list and update packages,  or follow instructions on site[https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-dailyfreecad-dev])
+
+(to find terminal window type terminal in seach box on ubuntu) (Eventually this kicad will install on other platforms but for now you need to be a good computer user to achieve this at the moment)
+
+
+
+MetalicaRap V2.00 (old)
+
+[[File: Assembly1 MetalicaRap V2.04.stl]]  Pre detailing    chamber to scale (old)
+
+====Old general infomation====
+
+'''[[Metalicarap:old_info|Click for link to Old Information section]]'''
+
+==Builders Section Very detailed technical information for actual builders only==
+
+
+
+====MetalicaRapBabe elements (Repstrap version has babe as opposed to baby for self printed version in name) ====
+
+main elements which form the printer hardware proper:
+
+* Triode electron gun within a 4 way reducer cross.
+* Electron optics assemply including deflection coils and magnetic lenses.
+* A metal powder dispensing trough hopper, with a cartesian 8cm diameter topological pick up ring.
+* Build platform in a 14 inch dia. build platform tube within outer glass tube chamber.
+* SEM for vision system for feedback regarding the shape of the part, using the 12kg trough, hopper pick up ring.
+* One roughing pump capable of 10-4 Torr
+* Switch Mode Power Supply -63kV up to 5kW series parallel resonant converter topology.
+
+
+
+====Power supply MetalicaRapBabe for builders====
+
+'''Overview'''
+
+Power supply Full Bridge LCC Series Resonant Converter with duty cycle switching variation control and above resonance frequency switching variation control, through this frequency variation maintaining Zero Current Switching during Coolmos  switch ON and Zero Voltage switching during Coolmos OFF  switching, with Arc sense, arc quench and arc count. ( see old information for more on beam current control options)
+
+[[file:SMPS_-1KV_&_-63KV1.png|thumb|right| Layout of electron gun power supply PCB's -63KV SMPS on top and 0V to-1KV SMPS floating at the -63KV's output on bottom, providing the beam current modulation via the bias voltage applied to wehnelt electrode, showing bar connector to bulb cathode filament and ring connector to wehnelt electrode (Note that the primary SMPS pcb is left transparent so you can see the connections to the other PCBs) '''Smps 1KV & 63KV assembly scale 1 to 1 with pcb.FCStd.tar.gz''' Down load this file from file and part section and unpack and open in Freecad, to get freecad[http://sourceforge.net/projects/free-cad/files/FreeCAD%20Windows/FreeCAD%200.14%20unstable/] PCB's are also available in download section open in development version of Kicad [http://packages.ubuntu.com/utopic/kicad] running on a ubunto utopic linux PC (Due to a freecad bug for the PCB 's to open correctly you must; after opening the file in freecad, scroll down left hand menu to green  PCB icon labelled power supply primary, and click so its highlighted, then select placement in edit menu, then tick box apply incremental changes to object placement then click apply then click ok, the pcb's will then appear in correct positions)]]
+
+[[file:SMPS_-1KV_&_-63KV2.png|thumb|right| More detailed of above showing secondary PCB,s the top -63KV smps secondary transformer  shows only the first and last 12 Secondary PCB's of the 178, The lower -1KV smps show the 4 required secondary tramsformer smps PCB's ]]
+
+
+[[file:Insulator High voltage and low voltage1.jpg|thumb|right| Cut away graphite core with Nylon PCBs support in background  [(scale 1:1 download .stl cad files here in download section])) ]]
+
+[[file:Insulator High voltage and low voltage2.jpg|thumb|right|  Insulator with low voltage side output tube (scale 1:1 download .stl cad files here in download section])]]
+
+[[file:Insulator High voltage and low voltage3.jpg|thumb|right|  Insulator High voltage and low voltage tube  (scale 1:1 download .stl cad filesin download section) ]]
+
+
+
+[[file:Plannar_winding_PCB.JPG |thumb|right|  High Voltage planar transformer PCB ]]
+
+[[file:High voltage planar transformer winding in 3D printed insulator.JPG |thumb|right|  High Voltage planar transformer PCB surrounded by insulator ( ferrite core removed for picture) ]]
+
+
+[[file: Schematic_power_supplyLOWQ.jpg|thumb|right|Schematic of Power supply old version pre ADC upgrade to ads6242 series (Download Schematic_power_supply.pdf for seeing wiring details in file and parts section 9,  also Download the required 8 PCB's there under heading SMPS 8 PCB boards Kicad file ) ]]
+
+[[file: SMPS1KV.jpg|thumb|right|Schematic of 1KV Power supply old version pre ADC upgrade to ads6242 series (Download SMPS1KV.pdf for seeing 1KV wiring details in file and parts section 9,  this smaller supply has some resistor changes and only 4 secondary pcb's ) ]]
+
+
+[[file:110V.png |thumb|right|  In response to the man's question about 110V operation, on powersupply primary a jumper link needs to be made between P3 and P4, and also between P5 and P6. The link between P5 and P6 needs to be made with 8 gauge wire. The link between P3 and P4 only carries a low current, so any standard hookup wire will suffice. ]]
+
+
+
+'''High output series-parallel resonant DC-DC converter 5KW 62.5KV ''' (search on this bold text)  -62.5 KV 0 to 5KW  running at 181.5KHz resonant  range 260Khz up to 500Khz at idle/low load,  with a -325V to 62.5KV transformer with voltage doubler on output, the transformer is designed for a specific value of inductance and capacitance to operate at the desired resonant frequency, as the load changes the parasitic capacitance of the transformer changes too, this means that at high load the series resonant converter topology dominates and light / no load the parallel resonant converter topology dominates. The change in load changes dramatically due to occasional arcing in the gun, This topology deals with these changes effectively. 
+
+The primary of the high voltage transformer will have 11 winds .The transformer secondary consists of a ''' magnetic flux pole with multiple ac to dc converter stages with planar coils''' [http://www.patentbuddy.com/Patent/5166965][http://www.google.com/patents/US5166965] (search on this bold text string)  but pole is extended in to a traditional ''single phase'' ''core'' type transformer arrangement [http://en.wikipedia.org/wiki/File:Transformer_winding_formats.jpg] or technically defined as a "dual C ferrite core assembly" ( with high voltage secondary side cylindrical cross section not rectangular, so as to avoid corners at high voltage). Each side is surrounded by an insulating HDPE or nylon 6/ 6 insulation cover called a transformer bobbin, one square sectioned and one circular cross sectioned (dual C ferrite core assembly and bobbins will be within a insulated HDPE box, and will run in air with the option of mineral oil insulation later). ( for wehlnet power supply 4 x 354V =1400V  as PLA is ok up to 70C has resistivity of 5e10+18 ohms/cm when 0.2MV/cm is applied[http://www.icee-con.org/papers/2004/180.pdf].Break dowm is 0.62MV/mm[http://air.lib.akita-u.ac.jp/dspace/bitstream/10295/697/1/ijsmer13-2j.pdf] So for 1400V less than a mm is required for insulation. So pla is ok for this 1400V  power supply.
+
+Each of the 178 transformer secondary converter stages   is a 2 layer PCB 0.4mm thick, with a 3 turns/winds (A 1 turn PCB layer and a 2 turn PCB layer blind via's not possible) ( 1oz. thickness) 0.6mm wide circular tracks (6mm spaced tracks so same as class2  double insulated) on the PCB looped around the ferrite core and 4mm insulation bobbin connected to 2 rectifying diodes and 2 capacitors in a voltage doubling arrangement, ((0.1mm min pcb  thickness for insulation safety) + 0.055mm Mica paper washer (better insulation and heat dissipation(check availability)= 0 .455mm thick) conductive turn/winds of  track creates a transformer secondary coil (actually end up with 119mm high ferite core space 8(only 4mm top wall bottom wall Only 2mm space top bottom from ferite core CHHECK IF PRACTICAL) so 178x(0.4mm PCB + 0.055mm each of two sheets mica paper )= 91mm  .  The series parallel  resonant converter topology gives voltage gain in this coil  from 2.25 times to 6 times dependent on switching freq/duty cycle which is combined with the gain of the o/p voltage doubler arrangement of output rectifying diodes and capacitors,  gives a resultant gain of ; 11primary winds,3 secondary wind,  times  factor of 2 (built in Topology)and times 2 (voltage doubler circuit on each output pcb)(3/11)*2*2*325V= 354V,  so  outputting -354 V d.c.from each PCB.  Each voltage doubling circuit uses fast rectifiers and 2 smoothing capacitors. Along the stack of pcb's the voltage increases in a negative direction gradually, keeping below Paschen or arc limit . Physically each secondary pcb will be clipped to the next (salvaged breadboard contacts in existing bunches of five work are functional clips). The power supply secondary converter stages can be tested (unregulated) as 178 separate  -354 V power supplies,  before all the secondary converter stages are connected in series creating the -62.5 KV output.
+
+Physically the secondary pcbs end up making a spiral every 8th board will complete a revolution of the spiral, it will have a spacing of above next board of 8x0.51mm=4.08mm. The mica sheet between the PCB's covers the components to aid insulation. 
+
+To reduce the parasitic capacitance each secondary PCB 3 turn track  layout is in alternate direction clockwise/anticlockwise, while the connection polarity to the 2 smoothing/doubling capacitors is also alternated so as to maintain a continually decreasing voltage up to the top of the secondary pole across the o/p capacitor stack of -62.5KV. This gain requires the following component values n=17 Cp=15nF Cs=48nF( Series Capacitor requiring reduced ESR [http://en.wikipedia.org/wiki/Equivalent_series_resistance] so achieved with many film type nonpolar capacitors in parallel ( capacitance additive, ESR  resistance reducing each extra parallel))  alpha=0.3125  Ls=16µH. fo= 181.5Khz. Max duty cycle 0..8 at frequencies  260KHz to 500Khz. Temperature rise is under 10deg C for this 0.6mm wide 1 oz (35µm) thick track area 0.21 sq mm  rated up to  08A will use 0.08A Fig2[http://www.ferroxcube.com/appl/info/plandesi.pdf] At switching frequency 181.5Khz skin effect is 0.15mm depth of circular conductor  (each side of track approximately) so effective rating 0.6A  [http://en.wikipedia.org/wiki/File:Skin_depth_by_Zureks.png]. Min track spacing 16mm for 178V. (( Alternative use flexpcb 0.2layer x2 but under 400µ thick insulation issue could test further)).
+
+Transformer ferrite core is splittable in to two "C's" half's horizontally in the middle of vertical sides.Core Cross section 29mm x 20mm  Vertical of  C 130.0mm Drilled to round 19mm OD cross section is 92mm on each of two c's horizontals.(Diamond Drill recommended outside diameter  3/4" (19.05mm) Inside diameter .748" (19.00mm)   this must be smaller than legs in both x and y directions
+lenght 2.75" (69.85mm)).  Min transformer "window" vertical space for coils/PCB is  in practice approx 100mm from ((178*(0.4mm PCB + 150µm Mica washer )+8mm insulation ) 8mm insulation is made up of 4mmTop&Bottom Sides of Bobbin. 0.15mm mica washer (Fx.  Kapton sheet SIL-PAD K-10.[http://uk.farnell.com/bergquist/sil-padk10-304x304-sheet/sil-pad-k-10-006-12-x12-sheet/dp/936765]  Or Muscovite mica paper MPM1(501) 82g/m2 0.055mm 0.025MV/mm insulation one sheet is 1.3KV insulation. 0.055thick[http://www.micagroup.net/inner_pages/muscovite.html]- could doubled up 2KV protection (3/11*325*6=531V max. poss.)) as spacers between PCB's, with Creepage distaance around edge off sheet/paper of Cat III 8mm min. ie 4mm track from edge  of paper inside and outside track/coil[https://b2b.harting.com/Webhelp/EGds/WebHelp/GBgdsCreepage_and_clearance_distances.htm]. 
+
+Transformer ferrite core In any of the  following equivalent materials //Material code  (Manufacturer)// CF139 ( Cosmo ferrite),// N87 (epcos),// 3c94 3f3 (ferroxcube ),// R (Magnetics ), //PC44 (TDK),// 2FB ( tomita )[[file:Ferrite_Core_High_Voltage_Cylindrical_secondary_Made_Up_Of_2_Cores.jpg|thumb|right| Ferite Core made up of 2 C's with cylindrical high voltage secondary side to the right ]].For example Cosmo part no.C ferite core  UU 12620 is big enough but square secondary that must be cut down to a cylinder using 7/8" Sintered (metal bond) diamond core drill, drill depth: 3" [http://www.ukam.com/webcatalog_drills_ordering.htm] ((or unlikely add 2 rods of same material 120mm long matching diameter to core square sections, or unlikely to get hold of round sectioned UR version that has 120mm window height for PCB's.))(Diamond drill at 825 Rpm, normal synthetic cooling oil, drill pressure 10kg to 14Kg, if old drill use diamond drill dressing stick to remove screeching[http://www.ukam.com/drilling_recommendations.htm])
+
+Primary wire  is 11  turn primary (87A continuous)(coolmos short circuit peak current limit of 117A) on a transformer bobbin (10cm flange on HV end) high voltage bobbin 4mm of  HDPE or cross linked low density polyethylene XLPE also called PEX or nylon 6/6 insulation.
+
+
+
+The -62.5kV Direct Current (DC)  after regulation is directly connected to the Welnelt electrode that connects to Tungsten bulb filament/cathode . Then the current flow continues  down the beam to the target and returns via the chamber body. The 1KV SMPS  controls the beam modulation through applying a voltage across the wehlnelt. (NB the most negative part of gun is the Wehnelt, the cathode traps electrons in front of it by being up to 1KV more positive than the Wehnelt (-64.5KV). The max beam current possible would be achieved if the cathode-filament has no negative potential infront of it on the Wehnelt ie 1KV SMPS is turned off, thus the wehnelt would have no limiting effect on beam current. Unfortunately the focusing effect of the wehnelt would also be lost at this point, so cathode being slightly positive with respect to Wehnelt is always desirable. Maintaining this cloud of electrons in-front of the cathode-filament called the space charge effect See spread sheet for calculations)  
+
+'''Power supply feedback control''' around transformer ;''Output voltage feedback'' via voltage divider on output of SMPS(one of two output voltage divider ''Output current sense feedback'' via a 4 resistor divider network. ''Input /Primary current sense'' via 1  "current transformers" in series with resonant tank  with 1:100 ratio connected to ADS6142 ADC chip.  The output current sense is via 2 resistor dividers, each having 3 High voltage 200M ohm [http://dk.mouser.com/ProductDetail/Ohmite/SM108032006FE/?qs=%2fha2pyFadujPwEibQbxGTwlBOqsFWyq5REqwoFwZVlX2OBfGrhBmBQ%3d%3d] & 1 19Kohm[http://www.digikey.dk/product-detail/en/CMF5519K100FHEB/CMF19.1KHFCT-ND/1555130] resistors in series, these dividers are across 2 Vishay 160W 1.9KV in series[http://uk.farnell.com/vishay-sfernice/rwst25168c4702jb04/resistor-ww-160w-5-47k/dp/1141264?Ntt=RWST25168C4702JB04] (giving a 3.8KV rated output drop),Resistors which are connected to ADS6242 ADC chip.  These 3 signals go via signal reconditioning board then on to Field programmable gate array [https://papilio-duo.backerkit.com/hosted_preorders]  via single channel analogue to digital converter (ADC) 14 bit 40Msps and a dual channel version [http://dk.mouser.com/search/ProductDetail.aspx?qs=%252bJlHzNyi4Bm58q%2f7FPeSUA%3d%3d&utm_source=findchips&utm_medium=aggregator&utm_campaign=595-ADS6242IRGZT&utm_term=ADS6242][http://dk.mouser.com/search/ProductDetail.aspx?qs=X9nKaaYcJjwasWhmbGodfQ%3d%3d&utm_source=findchips&utm_medium=aggregator&utm_campaign=595-ADS6142IRHBT&utm_term=ADS6142].
+
+Power supply has a rectifier board and primary Board, with a Piggy backed ADC primary board, a pimary FPGA board (offshelf) , primary optic link board, the planar transformer has secondary A (clockwise) & secondary B (anti clockwise) repeated winding's boards,  secondary ADC output board , secondary FPGA (offshelf), and secondary optic link board.    
+
+FPGA process  software will maintains input and output current parity within acceptable current window values. Current measured via output resistor  (300W (SMPS63KV) or 180W (SMPS1KV) rated resistor 50mm x 373mm  [http://www.logwell.com/tech/components/resistor_values.html]) Allows a small error signal from voltage output variations when within a narrower voltage output window values. FPGA drives 4 coolmos FET gates in full bridge topology via driver circuits. FPGA also checks for error conditions.
+
+Solftware for the FPGA_High_Voltage_side is coding 2 voltage feedbacks either side of ouotput resistor  from linear to Log and then 8/10coding for sending over fibre optic to FPGA_Low_voltage_side. FPGA_Low_voltage_side software consists of feedback signal decode from optic fiber, along with max current measurement from  either side of H bridge via ADC channel's (from 2 current sense transformers ). This output and input current data along with output voltage is examined in comparison to required voltage and current outputs so as to create an error signal.  This error signal is  low pass filtered (at 100KHz limited to avoid pulse width modulation ripple error) and sent to PID controller [http://opencores.org/project,pi d_controller] and finally to Digital pulse width modulator creating 4 outputs to H bridge FETS. Along with the digital pulse width modulation widening the pulse either side of a central point, the time delay between consecutive central points can also be adjusted thereby changing the driving frequency between 260Khz and 500Khz of the H Bridge. Adjusting the frequency will mainly adjust output voltage adjusting the pulse width will mainly adjust the current entering the transformer so affecting power transfer to the output.  A power supply user interface will set user parameters.
+
+ADC ADS6142(14 bits)primary side & ADS6242 (14bit)secondary side will oversample at 65MSPS needing 16 clock cycles 32 clock transition to process each sample, taking 240nS per sample (given total processing time available of 2400nS) then sample rate reduced by a third to under 1Gbits per second for optical link.
+
+On the primary side single channel ADC ADS6142 to FPGA data via 2 differential pairs LVDS DDR or 4 lines, 1 pairs of  clock output to enable fpga to decode DDR LVDS33 2 lines, 1 Pair for fpga clock output to ADC 2 lines, serial clock  SCLK 1 lines ,  3 control lines RESET SDATA  SEN ; So 8 ADC control plus 4 data 12 lines  FPGA to FET drivers  7 lines including ready fault and reset,  9 pins for optical link leaving 26 lines free . User computer interface via USB link. 
+ 
+ADC ADS6242 to FPGA data via 4 differential pairs LVDS33 DDR or 8 lines, 2 pairs of  clock output bit & frame to enable fpga to decode LVDS 4 lines, 1 Pair for fpga clock output to ADC 2 lines, serial clock  SCLK 1 lines ,  3 control lines RESET SDATA  SEN ; So 10 ADC control plus 8 data 18 line  FPGA to FET drivers  7 lines including ready fault and reset,  9 pins for optical link leaving 20 lines free . ( obviously not usb on hot side fpga)
+
+ADC ADS6142(14 bit) & ADS6242 (14bit) when RESET pin is pushed  high by fpga voltage applied from fpga to pin SEN sets data format single or double ended, applied low/ 0V gives required format LVDS DDR twos complement ( LVDS low voltage differential signalling), Normally RESET is LOW so; SCLK  with these chips will only  act as serial clock input, SDATA is serial data input.( SDOUT is used only for diagnostics of serial communication link as it can read backout what has already been sent via the serial link in to the serial register not connected on primary due to shortage of pins).
+
+For control methodology also see '''High output series-parallel resonant DC-DC converter 5KW 62.5KV''' ( via search on this bold text )(NB this paper does not include the real transformer just 2 dummy inductors and 2 Dummy capacitors one series one parallel) . A separate housekeeping supply provides bias for all control circuitry, providing a 5V separate stand-by voltage which remains active when the power supply unit is shut down for any reason ( later once efficiency of power supply is assessed a Power factor adjuster circuit may be added between rectifier and dc to dc converter) The following safe guards will  be included; Under/over voltage protection, Short-circuit protection, Output current limit, over temperature protection and line fuse. Adaptive control[http://www.ece.utah.edu/~bodson/acscr/] is applied using Gain Scheduling in feed-forward methodology; Controller verifies the amount of current available (ie how much in tank ) to reach a target voltage at the o/p,  adaptive gains are recalculated over  each sample , this system identification technique thereby selects the appropriate linear controller from 3 options(low load controller, high load controller, arc controller) , so target voltage is met what ever the operational reality demands ( other people have done with fuzzy logic).
+
+(Useful cheap analyzer for FPGA development [http://www.gadgetfactory.net/logic-sniffer-2/],[http://dangerousprototypes.com/docs/Logic_Analyzer_core:_Introduction] , [http://dangerousprototypes.com/docs/SUMP_logic_analyzer_Verilog_Demon_core_documentation] )
+
+Beam current modulation options MetalicaRapBabe;
+
+*by control of the bias on the Wehnelt voltage in gun ; 0V( full beam wehnelt has same voltage as cathode filament No bias ) to - 1KV pinch off (cut off where wehnelt is at the lowest voltage and cathode filament is 1KV more positive ( i.e. more like anode) this bias is provided via 2nd isolated power-supply providing up to 1KV bias.
+
+
+SMPS has been designed to use no high voltage components( over a few KV) specialist gear except for resistors (ie 20kv divider resistors[http://dk.mouser.com/ProductDetail/Ohmite/SM108032006FE/?qs=%2fha2pyFadujPwEibQbxGTwlBOqsFWyq5REqwoFwZVlX2OBfGrhBmBQ%3d%3d], and 3.6KVvishay [http://uk.farnell.com/vishay-sfernice/rwst25168c4702jb04/resistor-ww-160w-5-47k/dp/1141264?Ntt=RWST25168C4702JB04]output resistors) so the components are readily available. All high voltage wiring is designed to be like bus bars in power stations, ( ie not plastic insulation just a metal outside box/ cage ) this makes it heat robust and self printable. ( normal high voltage parts are very hard to source, very expensive and have a short life as any thing over the paschen limit will inevitable internally arc how ever it is made)
+
+====Power supply High Voltage Isolation optical SFP Implementation MetalicaRapBabe for builders====
+
+To control the power supply we need to measure the output current and output voltage just before the tungsten cathode, the current is measured via ADC voltage dividers either side of a fixed value thermionic stable ideally   2x 50Kohm in parallel so 100Kohm (rated 340W) in the SMPS, one 1KV SMPS will provide up to 1KV for wehnelt pinch beam current control and the other 63KV SMPS will provide the cathode anode gun voltage.
+
+To isolate them from the user (transformer primary side) and still receive the voltage and current data from the high voltage output, we use two Papillio Duo FPGA's one each side of the transformer connected with an optic fibre which provides the insulation (optic fibre must be non metalic cased type).  This transformer  Secondary side FPGA measures the voltage and current via ADC's and then converts this parallel data in to a serial bit stream, which is sent over the optic fiber via two Gigabit SFP transceivers [http://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver]. Due to the FPGA's running off non synchronized clocks a buffer is required on the primary side FPGA to resync and recover the data and its associated clock, so the voltage and current information can be decoded by the primary side FPGA. 
+Further details TBA [http://hamsterworks.co.nz/mediawiki/index.php/HiSpeedXfer]
+
+[[file:Hi speed link layout.jpg|thumb|right| High speed optical  link  receiver buffer  FPGA logic gate circuit; showing layout of buffering of  incoming data signal  (data signal sampled at 400MHz/ or 2.5ns period ,  data bit is 6 bits long, +/- one bit). This gives plenty of scope for tracking the incoming data as its relative phase wanders between the two FPGA's caused by FPGA's master clocks inherent rate variations [http://hamsterworks.co.nz/mediawiki/index.php/HiSpeedXfer]]]
+
+cheaper singlemode sfp's (1.25 gigabit) are designed for 10km, but will work dowm zero or yelow LC to LC patch cables [http://www.sfpcables.com/lc-to-lc-singlemode-duplex-os1-9-125]( 40km modules and above use multimode and cannot work over low distances without attenuaters).
+
+Implementation example fpga to sfp is seen on [http://www.ctwtek.com/data/AN3376.pdf]  [http://pdfserv.maximintegrated.com/en/an/AN4094.pdf] [http://www.hypertransport.org/default.cfm?page=ProductsViewProduct&ProductID=75]  pin out [http://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver](50.8 x 260mm Wtover 1mm)
+
+At -400 to -1000Volts below the  cathode, the scondary power supply will provide a very high impedance to electron beam on the welhnelt leading to the beam being cut off completely. Testing of 1000V SMPS can ustilise the second unused viahay resistor as a load. Test of 63KV smps will require both vishay resistors in series voltage divider.
+
+====Powersupply Feedack Control Implementation MetalicaRapBabe for builders====
+The primary side FPGA also runs the PID error signal correction [http://opencores.org/project,pid_controller] and low pass filter [http://www.newae.com/tiki-index.php?page=XilinxHLS] along with the Digital Pulse width modulation outputs [http://opencores.org/project,pwm,Overview] to the drive the FET's via a  300V isolation chip and a  high low FET driver chip.
+
+
+<gallery widths=150 heights=150>
+
+File:CPH01_1.png|SMPS PCB's ( download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_2.png|SMPS PCB's ( download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_3.png|SMPS PCB's ( download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_4.png|SMPS PCB's (download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_5.png|SMPS PCB's ( download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_6.png|SMPS PCB's ( download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_7.png|SMPS PCB's (download .zip kicad files in Files and parts section 9) 
+
+File:CPH01_8.png|SMPS PCB's ( download .zip kicad files in Files and parts section 9) 
+
+
+</gallery>
+
+
+[[file:Electron Gun elements MetalicaRap v2.jpg|thumb|right|Electron Gun Elements ]]
+[[file:Coil wiring diagram MetalicaRap v2.jpg|thumb|right| Coil wiring diagram ]]
+
+
+
+===Electron Optics Assembly===
+
+The electron optics assembly reimage and demagnify the electron gun crossover onto the build platform to create the electron beam focal spot for melting metal powder for additive printing and melting targets for solar cell EBPVD process. The focus spot size should be 100µ for printing and 10µ for SEM imaging (to achive 20µ resoluton ie. the Nyquist limit), with a pointing accuracy 10µ.
+
+Additionally the focus spot size for providing micro vaporization of errors in the build should be in the range 10µ to 40µ, see gun layout page 3. Initially this would be used to flatten every tenth layer of the build through high points/blobs removal. Future software development could provide live modeling of build, so through the adjustment of beam melting path in the subsequent layers errors/blobs could be accounted for as they arise, thereby limiting the need for blob removal to critical surfaces.
+
+The electron optics assembly will take the form of a two lens demagnifying telescope with an interlens deflection system for moving the image. To first order electron optics can be designed as standard geometric optics, with a few modifications. We will need to reimage and demagnify the cross over onto the printing surface. It is important to note that rays around the crossover are not straight lines, only asymtotically so. This means that to consider the crossover in terms of geometric optics, we have to use the asymtotic position of the crossover, that is, the focal point where the asymtotically straight rays meet, when projected backwards.   
+
+Two sets of calculations using two different operating points for electron gun, controlled by the reduced bias. The first lower power one is the telefocal mode ( print 200W , SEM 20W (SEM losses 180W in to  baffel by focus closer to electron gun and the beam will diverge from there leading to more being absorption in baffel)) the second one is minimum focal distance mode , by increasing the exposed area of filament the beam current, and therefore the power, is increased for the preheat mode. The names of the modes is from the Potapkin paper.  
+
+The smalles spot size need is around 10µ, which means that out optics will have to demagnify by a factor of about 0.1 given the cross over diameter of 120µ. The needed demagnification can be distributed over the two lenses and the total magnification will be given by M = M_1 M_2, where M is found from the thin lens formula 1/s_o + 1/s_i = 1/f and M = -s_i/s_o. We see that for a lens to be demagnifying M<1 the distance to the image (s_i) will be smaller that the conjugate distance to the object (s_o). In practical terms this means that it will be hard to have L2 be de-magnifying, it will have to be neutral (M=1) or magnifiying in order to leave room in the vacuum chamber and not having to bend the beam excessivly to achive a large printing area. Hence we will have to put all the de-magnification on L1. This leads to the complication of having a very divergent beam between L1 and L2, implying that the diameter of L2 will have to very much larger than the diameter of L1. The situation is illustrated in the figure. At precent we do not know how large diameter magnetic lenses are feasible? But figure 4.22 in W.D Riecke (1982) showes a realised lens with a diameter of 8cm.
+
+[[File:eoa_optical_design.jpg|thumb|right| Overview of the optical design. CO = crossover, L1 is the first lens, the red dots the focal points of L1. L2 is the second lens with blue focal points. Im is the final image. The magnification of L2 is one.]]
+[[File:spot_diviation.jpg|thumb|right| Overview of the quantities used for calculating the necessary magnetic field in the deflection coils.]]
+
+Another possibility would be an adjustable aperture in the beam. We note that the small spot (10µ) is only needed for SEM imaging, hence it will not require the energy of the full beam, we can afford to lose energy. We could then design the electron optics assembly to have a magnification M on the range 0.1 to 1, and then stop down the beam with the adjustable aperture when the small spot is needed. This procedure could also possibly reduce the aberrations when low aberrations are most need, ie. for SEM imaging. Maybe this could also be done by varying the lens current, hence changing the focal length?
+
+Assuming a two lens design we can write M_1 s_{o1} = - s_{i1} and M_2 s_{o2} = - s_{i2} for the two lenses respectively. (The magnification M is negative). We have some further constrains that we would like to add to the system. First the image from the first lens is the object of the second lens. Assuming a separation l between the two lenses we have l-s_{i1}=s_{o2} and we want a given total magnification M given by M=M_1 M_2. Further we could want to constrain the apature of L2.
+
+Given the maximum deflection of the beam required to realize a printing area of 24cm by 24cm is 14.65 degrees measured at L2 and 16mm is beam diameter of  at max deflection 151mm before L2 and the baffel is situated at 30mm after L1.
+
+One appealing solution is M_1 = 0.3 \ M_2=1.25 \ s_{o1}=100mm \ s_{i1}=30mm \ {o2}= 459 mm \ s_{i2} = 573 mm. With this design the aperture radii of L1 and L2 have to be at least 3.8mm and 27.15mm, respectively but due to inter lens XY deflection of beam further space is required prior to L2. So minimum pipe diameter is 83mm thereby giving the space needed to deflect the 16mm diameter beam  within to achieve 14.65 degrees deflection at L2.  For this Print mode asymtotic focal lengths we get f_1 = 23.1mm and f_2=255mm. This design will give a total magnification of 0.38, which corresponds to a focal spot size of 45µ, which is good enough for printing but too large for the vision requirements. By changing the magnifications to M_1 = 0.08 \ M_2=1.2 with out changing any lengths we will achieve a total magnification of 0.096, corresponding to a spot size of 11µ which is sufficient for the SEM vision system. As lenses and baffel lengths stay the same, in this SEM configuration the intermediate image will be before the baffel instead at it, as  the aperture radius of the  baffel   is 0.12mm, and the size the beam is 0.37mm going in to this aperture, we will lose 67% of  beam power in to the baffel,  but this should be acceptable or even preferably in the case of SEM  imaging. The needed SEM mode asymtotic focal lenghts in this case are f_1 = 7.4mm and f_2 = 261mm. 
+
+Compared to optical lenses magnetic lenses are very poor with large abarations. In essence we are building an SEM, and lots of research has been done on magnetic lenses for this pourpose. SEM operates with spot sizes on the order of 1µ or less, that is, 1 or two orders of magnitudes less than what we are aming for. Hence we do not have to optimise the design to the same extend as SEM designers do.
+One of the fundamental parameters in magnetic lens design is the gap to bore ratio S/D. According to W.D Riecke (1982) p. 179 we are free to choose this ratio is in the range 0.5 to 2, preferably in the range 0.7 to 1.5.
+
+The pole pices in an magnetic lens are tuncated cones the diameter at the truncations sould be 3 to 4 times the diameter of the bore, and the conic half angle should be 55 degrees. W.D Riecke (1982) p. 255.
+
+The magnetic lenses we have their magnetic flux carried on pole pices and cores. One important requirement is that we do not saturate the magnetic cores and theis will couse a large leak in magnetic field which will distrupt the magnetic lens. IN a classical magnetic lens the cores is connected to two flanges (top and bottom) which connects to the magnetic shielding which incases the electric coils. Theese two "flanges" will go through the pipe which contains the EOA. The minimum thickness can becalculated acording to formular 4.119 in Riecke (1982), given the need excitation and the saturation flux of the flange material. 
+h_0 = \frac{\mu_0 NI}{B_0 |ln(tan(\theta_0/2))|}
+
+For soft iron we will assume a saturation B_0 = 1T and the cone angle is on the order of 50 degrees. So all four flanges needs to be at least 3mm thick. The minimum thickness of the encasing can be calculated from 4.125. The inductance of the proposed coil designs, assuming a an iron core, will be on the order of 1H, which is significant. Care will have to be taken to avoid transients, which could generate very high voltages and arching in the coil. 
+
+Simple formula to calculate the temperature increase in the coils. NI=\sqrt{C_T h_{0}^3 sigma q \deltaT} \sqrt{eta +1/eta}, where C_T is the cooling efficiency of the coil, sigma is the specific electrical conductivity of the wire material; q=Na/A is the space factor of the coil windings, where a is the actual cross-sectional area of the copper wire employed; h_0 represents a charateristic length for the size of the coil cross-section and is defined by h^2_0 =A; and eta=h/h_0 specifies the shape of the coil cross-section with h as the extension of the coil in the direction of the lens axis. If b is the radial extencion of the cross-section of the (rectangular) coil, its 'aspect ration' h/b can be easily seen to be conected with eta by h/b = eta^2. The value eta=1 indicates a square cross-section. This formula can also be expressed in current density j_w=\sqrt{C_T sigma q (\deltaT/h_{0})} \sqrt{eta +1/eta}.
+
+It is not possible to change the cooling efficiency by very much by changing the aspect ratio of the coil cross-section. The space factor of the windings is generally about q=0.65. The value C_T is determined by the general properties of the coil and the cooling mechanism. If water cooling is incorporated in the external lens casing, C_T of 40-50Wm^{-2}C^{-1} can bee achieved corresponding to an average current density of j_w = 1.8A/mm^2 at a temperature rise of \delta T = 70C.
+
+So for L1 SEM mode we can choose design with S/D=1 and D=8mm, hence f_1/D=0.925  (f_1=7.4mm SEM). So D/f_1 = 1.08 According to Lenz (1982) figure 3.11 we then need an reduced excitation of 8.7AV^(1/2). The reduced excitation is defined as (NI)/(\sqrt{U}), p172, where U is the beam voltage. That is, sqrt{62500}*8.7 = 2175turns. 
+
+In L1 Printing mode we need the asymtotic focal length of 23.08mm, this requires less turns hence f_1/D=2.89. So D/f_1 = 0.346 According to Lenz (1982) figure 3.11 we then need an reduced excitation of 5AV^(1/2)Thus we need a reduced excitation of 5*sqrt{62500}=5*250=1250 A-turns. 
+
+We choose the demagnifying lens SEM mode design as this demads more turns, yet will also operate in print mode as well but  at a lower current .
+
+For L2 in printing configuration we need a focal length of 255mm. At this position we need to accommodate the expanded beam and allow for delection of the beam in the lens. The needed lens diameter has been found to be 67mm at least.plus its 16mm  beam thickness (See spread sheet K81)  and clearance ie needs 83mm diameter. We would like to make this lens shorter to allow room for the deflection coils hence we will choose a S/D ratio of 0.7 D=90 so S=63mm. For L2 we found D/f_2 = 0.353 according to Lenz (1982) figure 3.11 which results in an reduced excitaiton of 5.0 or 1250A-turns.
+
+So coil dimensions allowing 180% space for wire packing density
+
+======Overview of final tweeked lens design requirements======
+
+For demagnifying lens SEM mode 20 W higher magnification of L1mag 0.08 required NI is 2150   j_w = 2.5A/mm^2 or 250A/cm^2 max current/cm square is 250A/cm sq in coil, Assume wire crossection is square, and max current in an individual wire is 1A, therefore 250 wires per cm sq max. so round up to 15x15 wires in one cm sq, from one side diameter 10mm/15 =0.66mm from awg chart AWG 22 [http://www.hmwire.com/New%20PDFs/American_Wire_Gauge_to_Square_mm_Cross_Sectional_Area_Chart_1.3.15.10.pdf] , 2150 wires are required at 1A to achieve the required NI for L1 magnification of 0.08 so coil cross setion area will be 23.17 cm^sq (including 180% packing factor). [10.8cmx2.6cm = 28sq cm space available in physical design]
+
+Demagnifyng lens  Print moode  min spot size  0.02mm, 200W,75% cut off,  L1 magnification 0.3, required NI to achieve this magnification 1250 NI,  so requires a current of 0.58A in 2150 turns. Running coil cooler than design limit case above.
+
+Demagnifyng lens  Prewarm moode  min spot size  0.02mm, 200W,75% cut off,  L1 magnification 0.3, required NI to achieve this magnification 1250 NI,  so requires a current of 0.58A in 2150 turns. Running coil cooler than design limit case above.
+
+Probe forming lens print mode L2 magnification 1.25 ,focal lenght 225,  required NI to achieve this magnification 1250 NI,  so requires a current of 1A in 1250 turns.  Wire choice same as for demagnifying lens  j_w = 2.5A/mm^2 or 250A/cm^2 max current/cm square is 250A/cm sq in coil, Assume wire crossection is square, and max current in an individual wire is 1A, therefore 250 wires per cm sq max. so round up to 15x15 wires in one cm sq, from one side diameter 10mm/15 =0.66mm from awg chart AWG 22 [http://www.hmwire.com/New%20PDFs/American_Wire_Gauge_to_Square_mm_Cross_Sectional_Area_Chart_1.3.15.10.pdf] , 1250 wires are required at 1A to achieve the required NI for L1 magnification of 1.25 so coil cross setion area will be 14.1cm^sq(including 160% packing factor). [6.3cm x 2.3cm = 14.5cm sq physical space avaliable]
+
+Probe forming lens SEM mode L2 magnification 1.19 ,focal lenght 261 this is a similar magnification so will run as than design limit case above.
+
+
+(Note Later we should consider whether we can use a permanet magnet design, W.D Riecke (1982) p. 168 writes that permanent magnets are can provide magnetic potentials up about 3000 Oe cm or about 2400 ampere turns, which is sufficient up to a beam voltage of 50kV, ours beam voltage is 62kV, so how does these figure compare with the values for modern neodymium magnets? The magnets must remain under their Curie temperature of 320C.)
+
+(Note reduced excitation is defined as (NI)/(\sqrt{U}) The minus disappears when the multiplication is turned into a division Then a reduced excitation of 8.7 AV^(1/2) corresponds to 2175A-turns.)
+(Note The asymtotic focus position will be 10.0mm form the lens midplane according to Lenz (1982) figure 3.12 from reduced excitment of 7.5 so from graph Zv/D =1.2, D=8 so Zv=1.2*8=10 . The real focus position will be about 9.1mm from the lens midplane acording to figure 3.10 as at reduced exicetment of 8.7, Zf /D =1.1 given D=8 so Zf=8*1.1=9.1. K: I currently have baffel at 29.3 not 9.1, in SEM mode the image should be before the appature. We have calculated abouve that the image sits at 30mm after the lens midplace in printing mode, so the apature placement should be alright.))
+
+==== Simplificaton of the EOA design ====
+Given that we have taken our design principles form SEM designs, where the spotsize requirements are much more stringent than for our pourpuses we might be able to get by with some further simplifications that will make the machine much easier to build. The pole pieces are introduced to reduce the abarations, but they might not be needed. Also the deflection system we have chosen is selected because it reduces abarations, by making the electron beam pass through the center of L2. We might be able to get by with having the delections coils sit after L2 outside of the pipe for the EOA. We the delection coils outside the pipe and no requirement for the pole pieces and choosing a thin non-magnetic pipe, (about 1mm thinkness, 0.5 should be enough to hold the vacuum, but it would be very hard to weld. 1mm is more feasible.) we could place the magnetic lenses outside the pipe. This would make it much easier to acess and adjust the lenses, i.e. they can then be slid up and down the pipe. The only thing we would need to be inside the pipe is a baffle. If we make the baffle sit at the intermediate corss over and we can isolate the baffle electrically we could use the current from the baffle to ground as a measure of focus (if outside of focus electrons will be absorbed by the baffle), which would make it much easier to focus L1.
+
+==== Design of the deflection coils ====
+Out first choice of deflection systems is called a prelens double deflection system in P.Hawkes & E.Kasper volume 2 page 824. This system consists of two deflectors D1 and D2 at a distance 2a and a in from of L2, respectively. D2 has twice the amount of windings and the opposite polarization of D1. In this system D1 will deflect the beam out of the optical axis and D2 will deflected it back in such a way that the beam passes through the center of L2 to reduce aberrations. The deflectors consists of rings of a high permeability material like ferrite, with windings whos normal is perpendicular to the optical axis. From expanding the magnetic field in the interior of the deflector in Fourier terms one learns that the coefficients can be written as a_k = \frac{4}{\pi}\sum_{i=1}^{n} N_i sin(k\theta_i). By carefully choosing the number and angles of the windings on the ferrite ring the odd coefficients can be made to vanish, reducing the aberrations from the deflectors. Hawkes & Kasper p. 839. For instance n=2 and N_1 = N_2 leads to \theta_1 = 48 degrees and \theta_2 = 72 degrees, see figure 40.13 in Hawkes & Kasper.
+
+Calculation of the necessary field strength. Assuming the z axis to be the optical axis of the EOA, one would need a magnetic field purely in the x direction to deflect the beam in the y direction, i.e. the field is perpendicular to both the velocity of the electron and the direction of deflection. In this case the force on an electron can be written as F=evB. In the case where a force is perpendicular to the velocity one will obtain a circular motion, i.e. centripetal force. The radius of curvature will be given as R=(m/eB)\sqrt{2eV_acc/m}. With the definitions of the various lengths given in the figure to the right we can write the deflecton length x over the distance S as R=S^2 + x^2 / 2x \approx S^2/2x. Combining with the expression for the radius of curvature we get S^2/2x = (1/B)\sqrt{2mV_acc/e}. 
+
+In our current design we would like to deflect the beam about 20 degrees over a distance of approximately 2cm, corresponding to x=7mm. Hence we can estimate the required B field from the above formulas. B = (2x/S^2)\sqrt{2mV_acc/e}. Setting V_acc = 62keV and S=2cm and x=7mm we get B=0.015T.
+
+For a circuit with an inductance the instantaneous current and voltage is given by i=I_p*sin(2*pi*f*t) and v=2*pi*f*L*cos(2*pi*f*t) where f is the frequency, I_p the peak current and L the inductance. To drive the coils at the frequency f we will then dissipate the power P=R*I_p^2*pi. And the peak voltage in the system will be V_p = 2*pi*f*L*I_p.  
+
+Experiments with a mock up model of the deflection coil configuration has shown that a high permitivity material like ferrite is required. Because of the high frequencies the coil is required operate at a low conductivity material like ferrite should be used.
+The experiments showed that about 2500A-turns are needed to obtain a field of 15mT in the center of the deflector. A ferrite coil with 2500 windings will have an inductance of at least a few H, which could present a problem. Driving this coil at 10000 Hz would mean we would have to handle peak voltages on the order of 100kV. We might need another design of the defection coils. Maybe akin to a set of Helmholtz coils. This would also mean we should change the deflector design form a one deflector design to a one deflector design like in a tv.
+
+The expression for the field strength in the center of a pair of Helmholtz coils is B = (4/5)^(3/2)\mu_0NI/R. Setting R=4cm and B=0.01T we get NI=500. And because these coils are air coils we get much lower inductances. An air coil with a diameter of 8cm and 500 windings will have an inductance of about 50e-6H.
+
+By making the deflection zones longer, we can lower the requirements for the B field strength. Making the deflection coils 8cm long instead of 2cm we can lower the required field strength by a factor of 4^2 = 16. That is we need a field of 1mT. For a set of Helmholtz coils to give 1mT at the center, when the radius of the coils is 5cm, we need about 100 ampere turns. Such a coil will have an inductance of a few microH. And we would have to handle peak voltages of about 1V.
+
+Measurements in the lab has shown that for a traditional deflector design (not Helmholtz) we need 0.9A*2400 turns to achive a field strength of 1mT in the center 5 cm from the edge of the coils in the case of air coils. If we construct a yoke of laminated silicon iron we need 0.1 A*2400 turns to achive 1mT in the center. In this experiment the windings of the coils was 5cm by 5cm and the yoke was 2.5cm x 2.5cm. 
+
+
+Helmholtz deflection coil assume max current/cm square is 250A/cm sq in coil,Assume wire crossection is square, and max current in an individual wire is 1A, 250/.250 wires per cm sq max. , , so round down to 15x15 wires in one cm sq diameter 10mm/15 =0.66 mm square  from awg chart [105] AWG 22 with varnish insulation, NI required 200 per coil , (400 wires per pair) ,each helmholtz 400 wires  so approx cross sction area of coil 400/250=0.1.6 sq cm thickness 2.cm x width 0.8 cm x 160% packing factor =2.56 cm^2 area coil groove  [3cm x 1cm=3cm sq physical space availible or 6cm x 1cm=6cm sq for double wind coils] (skin depth at 20K .9mm diameter so ok). 
+For 1 m from platform to probe forming lens 11 deg interlens deflection required pipe radius 16mm I.D. (pipe ID 90mm )
+
+=====Lens and deflection driver circuits=====
+
+Filament driver Mains240 V with current limiting 60W light bulb in series with air coil primary side ( coil around glass tube )
+
+L1 Demagnifying lens in print mode:  needs 120 Ohm resistance of coil	120 V DC voltage to drive coil (volts) 33W	with 1.7547 Inductance of coil (Henrys)  CHECK INDUCTANCE MEASUREMENT  TBA
+
+L2 probe forming lens in print mode: 60 Ohm resistance of coil 60V DC voltage to drive coil (volts) 60W 0.7931 Inductance of coil (Henrys) CHECK INDUCTANCE MEASUREMENT  TBA
+
+Deflection coils: Given the following requirements a  75W amplifier 62 ohm in x axis and Dc step amp in Y axis, accepting that the beam minimun scan speed would be 50HZ;needs two channel ( X and Y ) , 62.36 resistance (ohm)	, 15.48V drive voltage 0.000154 H indution of an axis delection coil set (H),True power 64.25 W (what needs to be cooled away from coils)Aparrent power 62.36 W (what we must provide in drive).
+
+=====Electron Gun test methodology=====
+
+Alignment of cathode to Wehnelt distance, given modelled telephoto beam cut off Wehnelt voltage, set this cut-off voltage on wehnelt then retract the cathode  until the beam turns on.
+(We need to calculate the cut-off voltage. This can probably be done from the analytical solution for the field in Potapkins paper, applied to our telefocus geometry.)
+
+Test of anode cathode setup
+make sure to measure the current from the anode to gound--> how many electrons are absorbed by the anode
+
+Test of setup with out baffels but with the lenses -- use faraday cup to measure the current reaching the bottom of the tube
+Run test at low power, adjust lens current to maximise the current in the faraday cup
+
+Test with baffels
+Current from the baffels to gound can be measured as it tells how many electrons are abosorbed by the baffels 
+minimise current to baffels while maximising current through bottom faraday cup
+
+Check spot size, with a CCD or a phosphor screen.
+
+====Electron Gun MetalicaRapBabe for builders====
+
+Single electron gun providing 20W for SEM , and 1KW and 200W for printing operations. Has two electromagnetic lens and 2 sets (x,y) of 4 series deflaction coils.
+
+Additive printing through melting at high beam deflection speeds, enabling high build rates, and  EBPVD solar cell production. The one gun will be stationary situated 1.159m above the build platform. A sensor pick up ring will be attached to a 12Kg gravity fed powder hopper just above the build surface with 2 powder wiper blades attached, using sliding slotted plates to release the powder.  A second powder hopper will gravity feed the 12 kg powder hopper.  The gun will be used for both melting and vision systems, a back-scatter detector ring will be attached to the powder hopper for vision, on a cartesian XY system (the hoppers motion itself provided  by  the X motion of the hopper, Y motion by means of further drive shaft.
+
+Spot size 20µm, pointing  accuracy 10µm. The  gun will have a water cooled; anode, demagnification electromagnetic lens and a probe forming electromagnetic lens. 
+
+Method of providing Sub µm Topological 3D SEM vision system (See [http://www.ecmjournal.org/journal/smi/pdf/smi98-17.pdf])  
+
+
+Electron gun cathode Filament based around tungsten microscope bulb ( flat wound)( sm8018 6V 15W   bayonet type BA15D ). The bulb's glass cylinder which is  half in and out of the vacuum chamber is held in its own compression fitting, with the top of bulb glass dome removed revealing the bulb filament/ electron gun cathode. Sealled by 2 viton O rings in bespoke sealing fitting,  inside o-ring sealing to bulb glass and o-ring on outside sealing to the 50.8mm outside diameter glass cyclinder. These o rings are supported by  grooves on inner & outer  surfaces of bespoke sealing fitting which is made of 304s (esr), it has 3  pillar protrusions that  support the pyrolytic Carbon Wehnelt plate electrode, with 9 insulating alumina washers, electrical connection between wehnelt and pillar protrusions must be maintained via a tungsten bypass wire [http://www.firesleeveandtape.com/high-temperature-heat-resistant-nonconductive-ceramic-fasteners-english-metric-alumina-bolts-nuts-washers.html].
+
+A threaded rod attached to the bulb's bayonet fitting goes all the way up to a supported metal disc with glass handle on top of MetalicaRap, this provides adjustment of  Z position of filament with respect to Wehnelt electrode, accessible from outside of the chamber while in high voltage operation. A coil surrounds the 50.8mm outside diameter glass cylinder and a small internal coil attached to the bulb completes the filament drive "core-less  transformer"  electrical circuit,  a series (60W)domestic light bulb is used for current limiting . Thus using this 50.8mm outside diameter glass cyclinder (320mm long) with a home wound coil around it and a modified light bulb thus provides; a -63KV electrical feed-through, a -63KV to -64KV electrical wehnelt electrode, a filament transformer 6V 15W, and a support for wehnelt disc.
+
+Additionally providing Micro vaporization  (See gun layout Page 3 [http://mikroprodz.de/download/Varna-postprocessing.pdf] down to 10µ to 40µ spot size), Initially this would be used to flatten every tenth layer of the build through high points / blobs removal. Future software development could provide live modeling of build, so through the adjustment of  beam melting path in following layers errors/ blobs  could be  taken account of as they arise, thereby limiting the need for blob removal to critical surfaces.
+
+====Vacuum Chamber and  pump MetalicaRapBabe for builders====
+
+*Pump is a roughing pump multi stage Vane pump e.g.Leybold D4 D4B Trivac Rotary Vane Dual Stage 3.4cfm 2K euro new.  to '''1 x10-4 torr''' gas ballast off [http://www.hyvac.com/tech_support/Gas%20Ballast%20Valve%20Explanation.htm]  [http://www.pchemlabs.com/product.asp?pid=2302][http://www.idealvac.com/files/manuals/Leybold_d4_8B_InstructionManual.pdf]  1.0x<math>10^-</math><math>^4</math>Torr )( a dry pump option is better for EBPVD but currently 10K plus euro so rely on back flow oil filtering by means of large diameter pump to chamber connection pipe.) 
+ 
+*Electron Gun constructed from Stainless steel 304L (ESR) 4 way crosses reducer with  Conflat(CF) knife edge flanges CF100(EU standard)/CF6inch(US standard) and CF64(EU standard)/or 63(EU standard)-CF4.5inchs(US standard), The bottom flange is cut off 50mm below cross flange and  TIG welded to demaginification lens coil , then to beam pipe (cold rolled austentic grain 304L) and finally to the probe forming magnestic lens which is connected through a further knife edge flange CF100(EU standard)/CF6inch(US standard) to 59mm thick 304L(ESR) chamber top plate. (Avoid the need for TIG Welding skills in MetalicaRap by utilizing a bourght in glass cylinder and the ability to achieve electron beam welds in mother machine).
+
+* Use large diameter Borosilicate   glass tube with  Stainless steel 304L (ESR) plates top and Aluminium 6063 plate bottom, with 16-5 inch L gasket seals ( as used on vacuum bell jars), base plate includes electrical feed through constructed of test tube with conduting pins inserted/metlted in place while being sealed to chamber by o-ring,  access to base attached  build platform/ motors / sensors can be via removal of bottom or top plate, (as mother machine can self print parts and achieve the requiring welding in her chamber no TIG welding skills are required )
+
+(prototype initially requiring more machining to produce top and bottom aluminum plates later we can electron beam machine over size top and bottom plates in mother machine, by first printing O ring collars and grooves inserts, then welding these inserts in to half drilled holes in top or bottom over size plates in mother machine,  then through drilling out these half drilled holes, finally cutting  down circumference of top and bottom plates to fit with hand tools).
+
+Filament 50.8mm (OD) glass cylinder is connected to chambber with viton oring. As orings are penetrated by radiation an extra shielding ring is fitted outside the orings. 4 screws on extension rods will allow alignment of build chamber during vertical removal/replace for build platform maintenance. 
+
+
+
+*High vacuum   <math>10^-</math><math>^4</math> Torr to  <math>10^-</math><math>^5</math>
+
+* Electrical  feed-troughs ; For tungsten filament AC 10A 3V 50/60Hz heater power supply based around modified microscope flat wound bulbs body(sm8018) giving a -62.5 KV Wehnelt feedthrough which is within a test tube providing -59.5KV feedthrough.  Using large diameter glass cylinder chamber with L gaskets TV CRT neck feed-through seal with o rings Or o ring to copper tube then connect TV neck to copper tube by melting CRT glass. Glass tube to metal tube connection video[http://www.youtube.com/watch?v=OWw32BLodjY])
+
+*Mechanical feed-troughs ; will be avoided by using periodically replaced cheap standard Nema motors within the chamber.
+
+* Pirani vacuum gauge ( avoid cathode gauges as ionization from gun my interfere with them)* Home build Pirani vacuum gauge (use google translate) [http://tubedevices.com/alek/prozniomierze/pr_piraniego/wakuometr.pdf]
+
+*Outer box for shielding constructed of cheap material concrete or solidified sand.
+
+* Viewing windows; Main chamber viewing window with large diameter glass cylinder; Viewing windows are just multiple planes of normal glass in hole in concrete pipe  as no sealing is required, total thickness 70mm for shielding. ; Electron Gun viewing window will be a CF 50  flanged type on a Twith extra removable metal plate for shielding
+
+====Metal powder dispenser MetalicaRapBabe for builders====
+
+This will be a gravity fed split powder hopper.A small hopper will move in the x direction, intermittently refilled by main hopper situated in side of electron gun tube.The small hopper will have a 12Kg powder capacity, this  gravity fed powder hopper just above the build surface has two 1cm square section powder wiper blades attached wither side, leveling the roughly dispensed powder. The powder is released using two sliding slotted plates, ( design similar to household air vents  but ours will have sharpened vent edges). At the end of the hopper travel a small waste powder slot will remove old dispensed powder before the next dispensing sweep takes place.  A second main powder hopper will gravity feed the 12 kg hopper, it will be situated up  in the side of the 14 inch OD diameter gun tube and will obscure a little part of the build chamber from the beam (a necessary compromise). 
+
+Ultimately the powder hopper can be subdivided in to 3 compartments; one for titanium, one for glass, one for copper, titanium  printing structural elements and vacuum cavity heat insulation, glass for electrical insulation (bead/coating on wire [http://www.ganpatiengineering.com/glass-wire.html] and PCB [http://hackaday.com/2012/07/16/glass-pcb-led-clock/]) and light transparency, and copper for electrical conductivity (PCB) and heat conductivity.
+
+The vision system feedback can accommodate some roughness in the powder deposition during beam melting phase and subtractive removal phase.This design may lead to clumping with some powders at higher vacuums. The window option overcomes this but introduces other complexities in vision system and beam distortion (see below).
+ 
+Other dispensing/ considerations include: 
+
+* Metal Vapor will be released in to the chamber during the melting of the the powder, a later consideration is  protection of the gun, initially the guns distance from the build platform should be adequate, but the possible inclusion of a spinning slotted disc in front of the gun as further protection may need to be considered, 
+* SEM  pickup PIN diodes protection cover will be used when printing, 
+*Variable layer thickness might (?) be desirable to provide fine control of the vertical resolution using thin layers where desired, while still allowing relatively high build speeds that come with thick layers for other areas.
+** The Arcam EMB uses a "textured roller".  Presumably a roller is textured with a pattern of holes which is loaded with powder, then the powder falls out of the holes, and a little random redistribution occurs on the way down to the workpiece surface for a reasonably uniform powder layer of repeatable thickness this design will likely operate at ultra high vacuum.  
+** Leveling the surface of the powder bed or enabling better flow through hopper at ultra high vacuums may be possible using ultrasonic lubrication to briefly fluidize the powder bed.  It might cause unacceptable settling though. 
+**The density of the powder is lower than the density of the solid metal.  So if the powder is only deposited using say the textured roller the upper level of the powder bed will get higher than the surface of the part being printed.  How is this dealt with in the Arcam printers?  More research needed
+
+*Upon beam heating material loss in the form of evaporation and melting is released in  to the chamber redepositing itself on windows and light optics and even chemically react with filament ( a minor effect with most materials),  use replaceable and disposable glass sheet covers.
+
+====Build platform MetalicaRapBabe for builders====
+
+A 30cm vertical travel stepper motor driven circular platform within a 14 inch 304 tube printed in sections which is not vacuum sealed , as it is all surrounded by large radius glass tube. Within the build platform is a built in ceramic insulation layer.  Two felt o- rings seal the gap between the vertical motion circular build platform and the surrounding cylinder.
+
+
+====SEM  MetalicaRapBabe for builders====
+We may be able to use 6 PIN diode Topological / 3D imaging sensor also for spot size calibration, as we can solve for spot size knowing distance from gun...etc.
+
+
+
+====Detailed Information for builders only General Processes Information====
+
+=====Materials for builders=====
+Intro;Electron Gun B 1-5KW max (63KV ) above build platform. The gun has a small filament chamber followed by a 100.4 mm diameter 304L austentic grain (austentic grain is non magnetic p.243 [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf]) stainless steel pipe going through the center of the deflecftion coils but the focus coils for improved efficiency have pole pieces that penetrate the stainless pipe. The coils consist of 2 focus coils and 2 XY interlens deflection assemblies, each XY deflection assembly consisting of  2 pairs of helmholtz coils i air for X & Y deflection respectively.
+
+* Vacuum chamber wall stainless 304 L  ; this can be used for walls and pipes and is '''non magnetic''' when in Austentic grain state so can be used within magnetic fields. p.243 [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf]
+
+*Vacuum wall pipes use  304L cold rolled pipe max 32%reduction ratio   (during manufacture each pass through the roller reduces pipe wall thickness by 32% keeping the metal magnetic permeability low enough for this application of external magnetic deflection ie 1.04 ok) [ 65% reduction ratio having 1.55 permeability maybe too high  permeability for electron poles piece spacers or external deflection coils ]), this cold rolled pipe must be welded without filler, electro slag remelt or vacuum remelt.
+
+*Vacuum chamber wall (not pipe)  electro slag remelt or vacuum remelt hot forged   or cross forged ,
+
+*To avoid micro cracks (use 304L not 304) and maintain non magnetic properties  , Keep 304L at temperature 600 to 750 C for min period during welding ( minuets not hours under 1 hour max or loose non magnetic authentic grain type)  
+
+*materials for cathode/wehnelt/ anode electrodes and  baffel  '(pyrolytic carbon, tungsten, molybdenum)
+
+*metal for "soft iron core" surrounding coil windings, unalloyed soft iron for yoke, like AISI 1006 [http://www.yacht-steel.com/en/aisi-en-uns-convert.php]; as low carbon as possible. ( a rejected expensive coil yoke option was "Hyperm O")( Cobalt iron alloys for pole pieces if needed e.g. Vanadium Permendur is a superior soft magnet material, but it is VERY difficult to work with and very expensive , and requires fair expertise in heat treating after machining.  You should only use it if you need to)   
+
+*Metal for base is Aluminum  6063    (only if sustaining vacuum is a problem to reduce Aluminum out-gassing (ie Al "desorption" worse than 304L steel ) ethanol lubricant during machining is used(as opposed to water based lubricants)  p.245 [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf]so surface oxide thickness is reduced
+
+*all X  deflection  coils interconnected, with the first coil wound in opposite direction from the second winding on any aluminium  and Y deflection coils similarly connected.
+
+*thermal conducting material for anode support structure that extends through high voltage feed through ;ideally copper or Aluminum alloy   Aluminum alloy 6063(Al Mg(0.7)Si(0.4))  to reduce Aluminum out-gassing (ie Al "desorption" worse than 304L (ESR)steel ) ethanol lubricant during machining is used(as opposed to water based lubricants) (For large Aluminum chambers could also machine in argon atmosphere),  p.245 [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf](later if heat is not removed quickly enough from anode by water cooling due to it being via 304 wall (which facilitates easy welding and knife edge seals) we could instead make a one piece anode/water cooling/vacuum flange using spring seals ( HelicoFlex [http://www.techneticsgroup.com/bin/1090.pdf] copper or aluminum )
+ 
+*glass for cheap but fragile chambers ( and often need outer radiation shielding box ) p 249[http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf]
+
+*Thermionic emission regime hot filament design;  light bulb sm8018 see cost saving approaches below ( copper infused tungsten has also been mentioned as more stable physically)
+
+material for flange ordering:
+
+*304L stainless steel electro slag remelt or vacuum remelt or cross forged, 
+
+*hot forged
+
+*tube ID to be free of hydrocarbon contamination
+
+*white pickled or bright-annealed
+
+* I.D & O.D Clean after manufacturing
+
+* seal in plastic bags
+
+*etched or stamped with part nr, and material type
+
+not allowed: 
+
+*sand packing,
+
+* mechanical scratches on tube ID
+
+* any type of lubricant
+
+'''Vacuum Sureface preparation''' 
+
+In genral surface finishes only affect pump  down durations in vacuum below 10-6 Torr as we are working at 10-4Torr it is not a concern . p5 fig 3[http://www.gnbvalves.com/pdf/surfacefinish.pdf]  
+
+How to avoid blasting surfaces UHV p19 requires it p19[http://www.roth-rau.de/fileadmin/user_upload/shared/rr-website/Download/Technical_Guidline_Mechanics.pdf]but we are only high vacuum, pipes are ok as already bright colded rolled, so its just for L1 L2, wehnelt support, anode support and anode cooling connection.
+
+Finishes;  bright cold rolled finish as it comes from factory also called #2B finish, needs no further polishing/grinding just cleaning and degreasing, it is already 20µ inchs Ra or in metric 0.5 µm Ra [http://www.gnbvalves.com/pdf/surfacefinish.pdf][http://www.harrisonep.com/faqs.html]
+
+NiCr Steel ,  without blasting - Degrease acid bath, Rinse Town Water, Rinse Deionized water, blow off hot air drying, heat to clean to 250C for 3Hours under Low vacuum, under high vacuum 10-4 torr heat to 160C oveexrnight bake out (temperature limited by viton o ring seals), (Optional replace viton seals by temporary metal seals on electron gun and bake to 400C )[http://www.roth-rau.de/fileadmin/user_upload/shared/rr-website/Download/Surface_cleaning_and_handling_of_vacuum_parts.pdf]
+
+Soft iron e.g. Carbon steel 1006 - without blasting - Degrease alkaline bath, Rinse Town Water, Rinse Deionized water, blow off hot air drying, heat to clean to 250C for 3Hours under Low vacuum, under high vacuum heat to 160C overnight bake out (temperature limited by viton o ring seals), (Optional replace viton seals by temporary metal seals on electron gun and bake to 400C )[http://www.roth-rau.de/fileadmin/user_upload/shared/rr-website/Download/Surface_cleaning_and_handling_of_vacuum_parts.pdf](if carbon steel corrosion becomes a problem, outside chamber paint with exhaust paint, inside chamber cupronickel plating through physical vapor deposition of cupronickel in mother machine)
+
+Copper -  without blasting - Degrease acid bath, Rinse Town Water, Rinse Deionized water, blow off hot air drying, heat to clean to 250C for 3Hours under Low vacuum, under high vacuum heat to 160C overnight bake out (temperature limited by viton o ring seals), (Optional replace viton seals by temporary metal seals on electron gun and bake to 400C )[http://www.roth-rau.de/fileadmin/user_upload/shared/rr-website/Download/Surface_cleaning_ for and_handling_of_vacuum_parts.pdf]
+
+Al6063  without blasting - Degrease acid bath, Rinse Town Water, Rinse Deionized water, blow off hot air drying, heat to clean to 250Cfor 3Hours under Low vacuum, under high vacuum heat to 160C overnight bake out (temperature limited by viton o ring seals), (Optional replace viton seals by temporary metal seals on electron gun and bake to 400C )[http://www.roth-rau.de/fileadmin/user_upload/shared/rr-website/Download/Surface_cleaning_and_handling_of_vacuum_parts.pdf]
+
+glass - Degrease alkalie bath e.g. caustic soda, Rinse Town Water, Rinse Deionized water, blow off hot air drying, heat to clean to 250C for 3Hours under Low vacuum, under high vacuum heat to 160C overnight bake out (temperature limited by viton o ring seals), [http://www.roth-rau.de/fileadmin/user_upload/shared/rr-website/Download/Surface_cleaning_and_handling_of_vacuum_parts.pdf]
+
+Pyrolitic Carbon - use as from manufacturer, avoid contamination by contact to skin through using cotton gloves.
+
+'''Other genral background material issues'''
+
+Avoid the following ;stainless 303 as has sulfur in,  cadmium and zinc plated screws, brass(permeability 1.55). avoid plastics , avoid O rings contact with solvents. [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf]
+
+Materials for lens yokes needs permeability at least a 1000 times greater than pole piece spacers and beam tube. Eg. carbon steel [1006]. 
+
+( Prototype ; Vacuum flanges use cross forged 304L stainless ( corss forging breaks up an reorientates leak paths(certainly in flanges over 3 inch to remove micro leak paths that exist in normal 304 plate) (Material sampling As each batch of steal has a unique finger print of number of leak paths/impurities, material sampling can be used to fine the best batch's for High vacuum use.)
+
+Service temperature estimation ; 304 600, Pyrex 400, bulb 250C,, knife edge flange 400C, brass external 150C (not in contact with hot surfaces), fibreboard/glass fibre board 200C (not in contact with hot surfaces),  So estimated service temp max is 250C.
+
+Strength vs cost of materials [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/strength-cost/NS6Chart.html]    Strength vs Weight [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/strength-density/NS6Chart.html] Strenght vs Ductility/Brittleness  [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/strength-ductility/NS6Chart.html]    Strength vs Toughness [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/strength-toughness/NS6Chart.html] Stiffness vs cost of materials [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/stiffness-cost/NS6Chart.html] Recycle Fraction vs Cost [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/recycling-cost/NS6Chart.html]
+
+Resistance Electrical vs Cost [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/resistivity-cost/NS6Chart.html] Max service temperature [http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/strength-temp/NS6Chart.html]
+
+Window version; For window version UHV LaB6  keep max inclusions  to 1 or less for all types see p8  [http://www.chem.elte.hu/departments/altkem/vakuumtechnika/CERN19.pdf]
+
+=====Vacuum Tech for builders=====
+
+check for design for; leaks, Virtual leaks , chamber surface area reduction eg minimizing ceramic fish beads insulation, This is a developing detailed process which you improve incrementally in practice.
+
+calculation of process of gas load from;
+*seals /volume gas / Calculator here [http://www.engineeringtoolbox.com/vacuum-evacuation-time-d_844.html] Given a)enclosed volume..m<math>^3</math> b) Volume flow rate capacity   m<math>^3</math>/s   remove from this o ring  leak rates ( for viton 2.5 x<math>10^-</math> <math>^8</math> torr liters / second / linear inch )c) initial pressure mbar d) final pressure mbar   Get estimated evacuation time of 
+*surface gas /  permeation/ desorption from materials  etc by pump , 
+
+If two pumps backing pump selection calculation.  
+
+10-4 torr HV chamber list ; First time chambers conditioning; New O-rings vacuum bake 150o C or several hours next to infa red lamp not over 160o C before installation  . If the chamber is a bake-able, metal-gasketed ultrahigh vacuum (UHV) system, baking the system, especially into the roughing pump, would be standard procedure.Avoid cold spots will collect the very contaminants that we need to remove.. Using internal UV 185 /254 nm bulbs to breakup hydrocarbons and infrared bulbs for desorption of water.; If using non capturing type of  pump ( eg  turbo pump or oil diffusion pump ) where 2 pumps are required, one roughing (i.e. taking the turbo pumps inlet to low enough pressure to be activated, then changing mode to maintaining a appropriate turbo pump inlet  pressure for efficient pumping, called roughing pump in backing mode), the inter pump connection line  or" foreline " having a diameter above 12cm means you nearly avoid slow pumping molecular flow mode [http://www.vacuumlab.com/Articles/VacLab50.pdf] otherwise introducing some Nitrogen in the inter pump line when chamber is below  1 x <math>10^-</math> <math>^3</math>torr  will ironically help the roughing pump support the turbo pump better and remove any water .This Nitrogen gas technique is also an extra help for supporting the functioning of the oil sealed mechanical pumps oil traps and light gases in fore line also.
+
+For window version running LaB6 UHV chamber 1 x <math>10^-</math> <math>^6</math>torr ; First time chambers; Flushing the chamber to exhaust with hot  nitrogen gas for 1/4 -1/2 hour  can be effective in removing surface contaminants (UHV) Could go as far as Glow discharge cleaning[http://depts.washington.edu/rppl/presentations/INTERNAL/2007%20Internal%20Glow%20Discharge%20Cleaning%20Presentation.pdf]. 
+
+=====High Voltage for builders=====
+
+[[file:Assembly301_ef.png|thumb|right| Cable and electrical feedthrough illustration; Cross section of base electrical feedthrough, feedthrough made from melting together a test tube and borrisilate glass bead with the conductor a Kovar rod preattached though the glass bead, the heating melts the glass bead in to the test tube wall, test tube attached to vacuum chamber wall with o ring and clamp, creating an afordable electrical feed through, also illustrates a method of insulating copper wires (top) by threading glass beads along them, creating a cheap/resilient low outgas load cable]]
+
+The high voltage bobbin for transformer is an insulating material; HDPE 4mm or cheaper  XLPE ( X indicates crosslinked LDPE) or nylon 6/6 insulation, This cross linked low density polyethylene XLPE is used in 11KV to 500KV cables where LPE is set to a fixed form by a process called curing or vulcanization, this can be done via chemical or electron beam radiation. This crosslinking process improves the mechanical stability of the cheaper XLPE products. Comparing the breakdown voltages on different Polyethylene we find that HDPE is 100KV/mm, LLDPE 75KV/mm LDPE 75KV/mm XLPE 50KV/mm p.8[http://www.tesisenred.net/bitstream/handle/10803/83597/TJOP1de1.pdf?sequence=1]]. Other materials include  PVC, ceramics, glass, rubber, resins, reinforced plastics, polypropylene, impregnated paper, wood, cotton, mica, pressboards, Bakelite, Perspex, Ebonite,  Teflon [http://nptel.iitm.ac.in/courses/Webcourse-contents/IIT-KANPUR/HighVoltageEngg/ui/Course_home1_1.htm]
+
+
+
+Introduction to HIgh Voltage [http://nptel.iitm.ac.in/courses/Webcourse-contents/IIT-KANPUR/HighVoltageEngg/ui/Course_home1_1.htm]
+
+=====Shielding Tech for builders=====
+
+As most of the electron gun  is made of 6mm thick 304L stainless steel which alone provides necessary Xray shielding, but areas of vacuum chamber using normal glass (as opposed to unleaded glass), viton orings and copper gaskets require futher xray shielding (50% attenuation required We have chosen 99.3% attenuation See below Calculation)the low tech solution being a brick lined apparatus box or 80mm  thick concre, (equivalent to 1mm of lead shielding or 70mm of aluminium shielding) Xray shieetlding calculator [http://web-docs.gsi.de/~stoe_exp/web_programs/x_ray_absorption/index.php]. As we will use leaded glass and then 6 mm thick steel metal cap on high voltage feedthrough at top of chamber and one at the bottom of chamber, then 6mm metal rings around outside of viton L gaskets and copper knife edge gasket knife edge seals.  
+
+1mm lead shielding is equivalent to brick lined apparatus bay or :6mm 304 stainless , 80mm sand, 88mm concrete,  94mm standard glass 10mm  leaded glass.
+
+For on beam path calculation target penetration based on NIST material testing calculater for 63KV 1 mm of lead gives the necessary 99.3% attenuation[http://web-docs.gsi.de/~stoe_exp/web_programs/x_ray_absorption/index.php].
+
+The safety limit is defined as  "Generator Cabinet. Each x-ray generator shall be supplied with a protective cabinet which limits leakage radiation measured at a distance of 5 centimeters from its surface such that it is not capable of producing a dose in excess of 0.25 millirem (2.5 µSv) in one hour"[http://www.crcpd.org/SSRCRs/hpart.PDF] 
+
+
+''Caluclating'' the dose in µSv per hour with ''no shielding''
+see gamma ray example [https://www.triumf.info/wiki/pwalden/index.php/Radiation_dose_formulas]
+
+D(\mu Sv/hr) = 4.59\times 10^{-6}\frac{S_o E}{r^2 x}(1 - e^{-\frac{x}{\Lambda_{coll}}})
+
+The 0.063 MeV X ray, Iron has  a collison length of Λcoll = 81.7 g/cm2,  human flesh with a density of ρ = 1 g/cm2, the γ has a mean path length of (81.7g/cm2)/(1g/cm2) = 81.7cm before it hits anything. 
+
+Thus for a numerical example we take t = 81.7 cm or x=ρt = 81.7 g/cm2,  So = 106 Bq, our nominal distance of r = 0.05m, E = 0.063 MeV, and so numerical calculation gives 
+ 
+4.59\times 10^{-6}\frac{10^6\times 0.063}{0.05^2\times 81.7}(1 - e^{-\frac{81.7}{81.7}}) = 4.47 \mu Sv/hr 
+
+So with no shielding this is twice 2.5 µSv per hour limit, so 50 percent attenuation is required by shielding to reduce the 4.47 \mu Sv/hr  to 2.23 \mu Sv/hr  now under the limit . In order to ensure safety we have chosen to over-shield Metalicarap by having  99.35 attenuation(64 times more than required), as this attenuation is already provided by the structural thickness of electron gun chamber.
+
+Comparing lead equivalent shielding in different materials ; 1mm lead equivalent by materials to ; 2.5mm steel  , 6.1mm concrete , 9.1 mm packed soil, 50mm Borosilicate glass, 10mm leaded glass [http://www.raybar.com/cntrl_wndws.htm] [http://en.wikipedia.org/wiki/Radiation_protection].
+
+Assumptions
+
+Calculation
+
+Discussion
+
+====Sub Assemblies and Related====
+
+EBS=Electron beam sinterer/melting.
+
+sequence - electron gun parts repstrapped EBS. Assembled tested in repstrap vacuum chamber. Metal powder deposition mechanism parts repstraped EBS . Gun deposition assembled tested.  MetalicarapVacuumChamber parts Electron beam sintered by our system. MetalicarapVacuumchamber assembled tested. 5 Elements assembled and tested.
+
+====Part numbering method====
+
+general form XXXXX_XXXXXXXXXXXXXXXXXXXXX_XXXXXXXX eg CPH01_000000000000010010001_00000001 AL 6063
+
+
+Use; 5 character '''geographic''' location code ; 21 digit numeric '''part number''' (first 14 digit is assembly number, last 7 digit is sequential part number (CAD  will not include the leading zero's on part numbers (thought description field will be complete))); 8 digit part '''version''' number, 
+
+*5 character geographic location code; made up of local airport code followed by 2 digit centre number eg CPH01  Copenhagen airport first centre number 01 Labitat
+
+*21 digit numeric part number 000000000000010010001  part number is made up of assembly reference (first 14 digits)and sequential part number (last 7 digits of 21); assembly reference begins with; 00000000000001 electron gun , 000000000000002 Vacuum chamber, 00000000000003 build  platform and a sequential part number 0010001 (first 10000 parts reserved for electronic systems)
+
+*8 digit part version number 00000001
+
+
+(leading zero`s left off on actual parts eg 10010001 and on descriptions in CAD STL file eg CPH01_000000000000010010001_00000001 AL 6063)
+( as specified in document X-673-64-1F)
+
+
+The BOM will also include the material details  eg CPH01_000000000000010010001_00000001 AL 6063
+
+==Software==
+
+MetalicaRap will be a software machine. Fast computers (and progamers) are easily avaliable where as high precision machining and calibration of components is relatively much harder. We hope to be able to control the build process to a high level of precision through software tracking, abarration correction and feedback.
+
+Details: [[MetalicaRap Software]]
+
+==Specialist Parts ==
+
+Those which are not self printable or readily available; 
+
+*Transformer ferrite core ; Rectangular hollow section shape single phase style [http://en.wikipedia.org/wiki/File:Transformer_winding_formats.jpg] but modified by a drill removing corners so circular cross section on secondary high voltage side. 
+*Roughing pump capable of 10-4Torr
+*long large diameter Flexible hose to reduce back streaming of oil from pump to gun (with end CF-16 hose to pump fitting)
+*Priani vacuum gauge ( now home build version availible (use google translate) [http://tubedevices.com/alek/prozniomierze/pr_piraniego/wakuometr.pdf])
+*Electrically operated CF-16 T valve
+*Exhaust Valve
+*Transformer varnish insulated wire for coils
+*Viton o rings;  7 small for cathode, 3 small & 3 large for gun tube to glass chamber adapter, two large 16.5inch bell Jar L gasket  seals with bottom aluminum and top 304 plates. 
+*Copper OPFC knife edge flange sealing rings;  2x 6.34inch DN(100) , 1 x DN80 anode and 1 x DN80 pump attachment side
+*Safety vacuum cleaner ( needed for cleaning up Aluminum and Titanium) Self printed.
+Access to ;
+Vacuum leak detector
+Spot welder for in chamber electrical connections of OFPC copper conductors having glass beads as conductor insulation. 
+Geiger counter eg Radiation Detector - Pocket Geiger Type 4 [http://www.radiation-watch.co.uk/], Self-indicating instant radiation alert and dosimeter (SIRAD) [http://www.livestrong.com/article/119046-types-dosimeters/] easily worn, result via comparison with color chart ( 4 - 25 Euro each SIRAD) [http://www.amazon.com/RADStickerTM-radiation-exposure-determining-dosimeter/dp/B004VJ06CI/ref=pd_sim_hpc_1/179-8364669-5246522] [http://www.amazon.com/SIRAD-RADTriage-FIT/dp/B005GNM6NU].
+
+Avoid the need for TIG Welder in MetalicaRapBaby by electron gun tube being short enough to be able to fit in chamber of mother machine so mother machine can Electron beam weld parts together, (TIG welder for electron gun tube and tube to flange attachment for MetalicaRapBabe).
+
+==Design review==
+
+====Cost saving approaches general====
+
+''' cost saving approaches List; 
+
+
+*filament based around tungsten microscope bulb ( ie flat wound)( sm8018 6V 15W  bayonet square filament towards top  BA15D ) with top glass dome removed held on remaining glass, half in and out of chamber by 2 viton O rings in bespoke sealing fitting having 2 o rings on  inside sealing to bulb glass and  on outside 2 more o rings sealing to inside of  2 inch test tube. These o rings are supported by  dual grooved on inner & outer  aluminum o ring support cylinder which is situated in the 2 inch test tube and which also supports 3 x 304 pillars that attach and support the tungsten Wehnelt cylinder, via 9 in total  1000+ metling point carbon/ceramic/alumina washers, electrical connection must be maintained by tungsten bypass wire or  washers being electrically conductive(one; wehnelt hole OD, support rod ID. 2; larger dia. than wehnelt hole OD, support rod ID )[http://www.firesleeveandtape.com/high-temperature-heat-resistant-nonconductive-ceramic-fasteners-english-metric-alumina-bolts-nuts-washers.html]The test tube which is  half in and out of the chamber is held in its own compression fitting on the end vacuum flange, the test tube is modified with a hole in its end for the bulb filament to protrude out of. A threaded 2 wall cylinder that is clipped in to bulb stub ends on either side of bulb base at one end and pressed against dual grooved inner & outer aluminum o ring support cylinder at the other, and thus provides adjustment of  Z position of filament with respect to Wehnelt, accessible from outside of the chamber. A coil surrounds the test tube and a small coil attached to the bulb completes the filament drive "core-less  transformer"  electrical circuit,  when combined with a  dimmer circuit  connected to coil out side the test tube it replaces conventional filament current control. Thus using a test tube with a home wound coil round it and a modified light bulb provides; -63KV electrical feed-through, -64KV electrical wehnelt feed-through, filament transformer,  filament , heat removal mechanism from bulb to test ube, support for wehnelt disc(adjustable height above filament aim 0.3mm) ( also covered with a cap so no pointy HV parts revealed).  A user selectable resistor is also included between wehnelt and filament within the test tube. 6.5Keuro saved here.(used in our project)
+
+*Two large TV tubes with screens drilled through with appox 16 inch circular holes enough for build platform, placed face to face with oring between screens, one neck removed where the electron gun is inserted via a o ring, maybe one path to save 2K euro of chamber metal and get 1 set of free electrical feedthroughs for motors (motors working in chamber)( status untested )(not used in our project).
+
+*Since you can get an electron beam to operate in a vacuum of around 5x10^-3 Torr. '''Avoid'''  metal sealed flanges such as the conflat or wheeler flange '''By''' Buna rubber seals and low out gassing glues can be used for sealing components and costly vacuum flanges can be avoided in much of the construction. Simple pipe threads sealed with teflon tape or even glues can be used along with cheaper KF flanges.  ( status untested )(not used in our project)..
+
+*'''Avoid''' expensive vacuum specified water cooled motors operating in the vacuum ( heat dissipation problem) '''By''' using oversized normal NE MA motors to cope with overheating and replace any oil filled elements eg gear boxs  with a higher temperature white grease. Out-gassing shouldn't be a big problem with grease.;( Status may only last 6 months at a time partially tested)(used in our project). //A hole should also be drilled into the gearbox to allow air to be evacuated.// 
+
+*Normally you use use pneumatic vacuum gate valves for the foreline and roughing valves and then a large pneumatic "angle" gate valve for the diffusion pump/ion pump inlet. Lastly, a pneumatic poppet type valve is used to vent the chamber to atmosphere. '''Avoid''' the  expensive 25.4cm angle gate valve  '''By''' home-brew using large plumbing valves gate or ball valves  for 4 inch and smaller diffusion pumps. See how well home brew valves hold a vacuum BEFORE you put them onto your vacuum chamber.(status untested)(not used in our project).
+
+* MetalicaRapWin 2nd pump Oil diffusion or ion pumps may be replaced by MetalicaRaps electron beam heating a titanium block within the vacuum chamber, thereby creating a  Titanium Sublimation Pump Or what I think we should name it  the '''Electron beam titanium sublimation pump'''  so avoids all gate valves to the second pump since titanium is replenished each atmospheric cycle by the beam melting it and thus also avoids ion pump refreshment /maintenance. ( this new method of  pumping relies on a having  a very good rough pump vacuum  ie '''1x10-3Torr''' so the beam can operate to raise titanium to 1300-1600 deg.C. its sublimation temperature. eg Leybold D4 D4B Trivac Rotary Vane Dual Stage 3.4cfm 2K euro new.  to '''1 x10-4 torr''' gas ballast off [http://www.hyvac.com/tech_support/Gas%20Ballast%20Valve%20Explanation.htm]  [http://www.pchemlabs.com/product.asp?pid=2302][http://www.idealvac.com/files/manuals/Leybold_d4_8B_InstructionManual.pdf] or  Kinney KC Series KC-3 pump 2K euro recon. or e.g DS 102 Dual Stage Rotary Vane Vacuum Pump  2 x10-3torr 2K euro new. ( these pumps both use oil for lubrication, Oil free called dry pumps are better for EBPVD. ('''check which PVD metals deposit ok''' with oil around and which not? ) Dry pump options are currently too expensive  eg 10K euro plus; Richards EPX  or top end Dry Scroll pumps or  Blower Booster paired  with own Backing Pump)  to protect the chamber put the titanium block in side a double walled box with a beam entry hole at the top, and offset breathing holes through to the rest of the chamber on the box sides, thereby protecting the main chamber from the condensed titanium on inside surfaces of the box and yet let chamber gas combine with titanium creating solid compounds/a chemical pump with inbuilt recovery.  Pumping speed may be moderate; for a 13 inch long 1 inch wide by 3 inch high box surrounding the titanium bar , gives a Ti deposit area of 91square inchs, at 20 degC.  given pumping speed is 25 litres per second per square inch of deposited Titanium, So Nitrogen pumping speed is 2275 litre per second or 136 m3 / min or 8191 m3 per hour, thus the beam creates its own high vacuum pump.  (some tantalum will be advantageous for argon pumping). (Arcing is more likely at poorer vacuum pressures, from the  paschen curve we can see that this may not be a problem[http://en.wikipedia.org/wiki/Paschen%27s_law] (should allow / avoid arcing between; cathode to wehnelt  3kV over 0.3mm (same as Pd 3x10-2'''Torr cm''' at 3KV See graph [http://en.wikipedia.org/wiki/Paschen%27s_law]) - welhnet to anode - 100KV over 34mm (same as Pd 2.9x10-4'''Torr cm''' at 100kV See graph [http://en.wikipedia.org/wiki/Paschen%27s_law])(note;  may not work/ may arc at rough pumping pressure levels of 1x10-2 Torr for argon on wehnelt ( i.e. Pd 3x10-1'''Torr cm''' at 3KV See graph [http://en.wikipedia.org/wiki/Paschen%27s_law])))) ( untested but breakthrough if works and probably will especially for MetalicaRapWin with its 10-7Torr vac requiremnt !)( status untested )(not used in our project ).
+
+====More Examples====
+
+Practical manufacturing walk through
+
+====Manufacturing walk through Time/Cost====
+
+Given Electricity is 2kwh per hour .5Euro/hr  '''Part A''' Material; Stainless steal,      Size;  300x300x200mm  Weight; 15Kg  10µ Stainless powder (40 to 100Euro/kg) melt print 100µ Z layer thickness  
+
+'' '''1''' minute per 100µ each layer See below;''  1 minute per Z 100µ layer, each layer preheated 20 degrees Centigrade under melting-point followed by printed by beam'''''5.33'''  minute per  Every 10th layer Z axis correction see below ;''
+
+SEM ( part assumed to occupy 1/9 of whole print area; 1/9* 300*300='''10 000<math>mm^2</math>'''      measurement  at every 10µ, SEM picture 500x500 pixel so 5mmx5mm, So for 10,000<math>mm^2</math> need 400 SEM pictures  10,000/25= 400 4x pictures from 4 picups gives effect of different angles? for 3D picture reconstruction  so real distances,     400  5mmx5mm pictures, 250ms a picture = 100sec.  plus time of mechanical movement of electron gun between .024m square patches at .03m per second is 12y strips each 0.3m strip takes 10 seconds to travel, so in all takes 120 seconds to cover build area( Risk of underestimate factor x100 ) 100+120=220 or 3.66 min 
+flatten blobs through repeated surface spot melting 1ms per 70µ diameter spot  area 4000x10-6<math>mm^2</math> ( 850µs duration & 150µs beam movement) 1/10  of part high(Risk of underestimate factor x2) ( 1/10*10 000mm2/ 4000x10-6 <math>mm^2</math>= 1x105 spots   1x105 spots*1ms= 100Sec  1.66min
+
+'''Time  so far''' 200* Z correction layers''' 5.33''' Min each 1066 +   1800 printed layer''' 1min'''  each = 2866 min'' '''( 2.0    days)''''' ''Cost   690 Euro         materials     600Euro         Electricity  90''
+
+[[MetalicaRap Future Developments]]
+
+====Critical Design Review, Review of decisions made so far====
+
+In chronological order
+
+1.metal.......................... Vs ..composite.        ........... .........Why .Metals needed for high stress high temp contexts , engines, solar plants.. -ve  ........................   +ve   metals 100 % recyclable fits Cradle to Cradle Design See [http://en.wikipedia.org/wiki/Cradle_to_Cradle_Design]
+
+2.additive.Sintering........ Vs Subtractive EDM?.................Why Tool path manual intervention required.Consumables......... -ve  ..Powder management ............ +ve     
+
+3.ebeam..Vs  laser .....Why A)laser below 50W,small size part 5x5x5cm,slow B) Laser above 150W cost, permit , Wall plug  to metal efficiency eg; Yag in iron 10%, Yag in aluminium  2.1% ,  Yag in titanium 1.5% p27[http://epubl.ltu.se/1402-1544/2008/08/LTU-DT-0808-SE.pdf] [http://www.rp-photonics.com/wall_plug_efficiency.html] , optics.  Ebeam -ve .not so cool , difficulty diagnostics...+ve solar cell printer possible, titanium sponge refinement & metal powder production possible.
+ 
+4.powder...........................Vs foil..........................................Why foil waste removal.................................-ve .Harder solid parts.& powder management...... +ve
+
+5.vision & correction sub.  Vs one pass blind process ...  ....Why .reliability Verifiable tolerance............................................. -ve ...Complexity.....................   ................ +ve
+
+6.gravity hopper................ Vs  twin chamber........................ Why avoid old powder reuse fresh every time '''easier prep '''............  -ve      their must be a good reason to use 2 build chamber? e.g. EOS is.  +ve
+ 
+7.one static top of chamber gun with just sensor ring on cartesian axis  Top gun shoots through sensor ring from top........... Vs  two gun would ensure spot size on vaporisation but could add in again if existing does not work.   Why  So SEM near table Sensors PIN Diodes 164$ each not 64x PINdiodes   . [[Pros & Cons of two guns design]] 
+
+8.  Water cooling  Vs Passive cooling for 5KW gun .............Why .Air cooling fins on cathode head block  and on high voltage copper enclosed connector plus ducted fan & fins  -ve  need to be FEL modeled to check conductance. +ve  Simplicity no water ( though  could add later )+ water cooling necessary on anode so use on magnetic lenses as well.   
+
+9  Tungsten thermionic cathode filament.2600C. Vs .hot Field emission cathode ..Why Cost of IrCe,  field emission  required UHV, .Thermionic is OK in high vacuum... -ve  hot spots poor beam focus reduced filament lifetime, gas load in metal powder more critical due to filament sharing same space.... +ve  cheap no need for window to separate gun chamber from powder chamber    
+
+10. External lens coils Vs  internal lens coils  ....... ....Why .to achieve small enough spot size as spherical aberrations are zero on axis of lens and increase as you move out, ... -ve need for barrier between coil pole pieces and beam for vacuum,  construction of can for cooling , more complex welding construction    +ve no contact between coils and vacuum
+
+11. Split hopper  ..... Vs ..One large dispenser hopper.....Why ..cost chamber size less force required on motion feed through............... -ve  ..complexity of refill mechanism   ( shutter with knife edges ) ...............   +ve. initial lower cost 
+
+12. Hopper location above build platform vs hopper location below build platform   ...... why ease of metal powder managment and limited contact with user   -ve posiibility to spill out of hopper   +ve complexity of pushing powder back up to  build platform, 
+  
+...................................... Vs ...............................................Why ...................................................... -ve  .....................................................   +ve....................................... 
+
+list in importance order, bold text indicates more thought required
+
+====Request for specialists and non specalists====
+We are looking for further technical people who are committed to empowering themselves and their environment through self motivated practical tasks in the following areas: Stainless steel metal prototype machining, High voltage power supply prototyping (75kV 1-5KW), vacuum instrumentation, mechanical drafting/ design, and back-end software (specifically in unified accelerator library; a gcode to electron beam deflection coil data application) and electron optics design. We are now also looking for more people to chase non specialist tasks as well.
+
+====Other design options which other builders may choose to follow that we have rejected====
+
+''Chamber &  pumps & feedthroughs''
+
+The non window  single chamber version can be adapted for Lanthanum hexaboride  (LaB6) filaments ( lasting 1000 times longer than tungsten filaments but expensive and needing higher vacuum of 10-6Torr) through creating a dual pressure vacuum chamber design, dividing chamber up between filament/cathode/anode area and the main weld chamber with a mini "airlock" chamber which is  high speed pumped. The existing single aperture/ baffle between L1 and L2 magnetic lenses can be cleaved/split in to two separate apertures in two disks thus creating an intermediate mini airlock chamber.  The existing aperture size small apertures(100µ) thus doubles up as two air nozzles separating the electron gun  from the weld chamber. These 100µ apertures (image size at baffle is 6% of 1mm emitter radius de-magnified by 0.3 so image height is  20µm  so aperture will be about 100µ(check)) are suitable size as a pumping aperture/nozzle between electron gun chambers at 10-6 Torr and  10-4 Torr weld chambers. This adaption also requires additional  vacuum pumps for each area and the intermediate mini chamber between the baffles.
+
+(Old option: Another option is using 2 recycled TV cathode ray tubes as main vacuum chamber, Leaving only the problem of the build chamber tube which can now self print in 7 pieces and assembled, which is achievable as no longer needs to be vacuum tight only metal powder tight as is within glass Cathode ray tube chambers and cutting the hardened screen glass is successfull. Finally a good way to reuse all those old TV's!)(*((OLD solution TV Glass Chamber; chamber based around two recycled CRT TV  tubes, face to face. The 2 salvaged CRT's with  holes cut in screens, after end neck pip breakage release of vacuum, capacitive discharge via anode button and electron gun removal in both CRT's. Lower CRT pip reseal with blowtorch so lower feed-throughs continue to function, upper CRT has electron gun neck of CRT  tube shortened. Two o-rings supported on one side by a double grooved Aluminum metal support ring sealing the CRT's face to face and providing access door. (Capacitive discharge via shorting anode cap to earthing band on corners, use own cable as anode cable may have diode in [http://www.youtube.com/watch?v=H_4qc9Jyt5A][http://www.youtube.com/watch?v=UsL-rAUKswQ][http://www.youtube.com/watch?v=-QOxLRLDVeg] be safe out there!). Glass chamber is connected to electron gun tube via Aluminum Tube/Glass adapter; with 5 o rings, 2 for gun tube sealing and 3 for CRT (MetalicaRapBabe) , having 1 for cushioning end of glass and two for sealing each joint.(or to  square bottomed flask (MetalicaRapLIght) sealing) feed-through motor connections via Cathode RayTube connections in lower recycled Cathode RayTube,. )))
+Pumping options ; diaphragm pump no oil Dry 
+
+Link to details of [[High vacuum chamber]] (initially welded then glued)
+
+* Only control via power supply feed back circuit leaving gun  cathode to  Wehnelt electrode bias fixed via resistor. When at 1KW power and shut down in half a cycle ( 0.2MHz switch frequency) the resonant energy left in LCC circuit and output capacitance would lead to one extra 55micron cube of melted Titanium or 40 microns cube of melted steel.  See problem C for calculation  [[MetalicaRap:Physics Principles|Physics Principles/Discussion]]  Yes! big cost savings here!  
+
+* Electrical  feed-troughs ; For tungsten filament AC 10A 3V 30W ( NB SM8018 bulb for comparison is  6V 2.5A 15 W flat wound filament but nearly all energy is seen by gun where as only a 40th  of ribbon is seen by gun but is 30W 2mm wide  50µ thick ( check)) 50/60Hz heater power supply electrical feed-through includes a oil immersed 100KV isolating transformer using a  Pyrex and quartz tubing within CF pipe coupler with orings  with oil imersion on outside   [http://www.coultersmithing.com/AuxCP/FT.html] .By placing last stage of  main 100KV power supply  the cockcroftwalton ladder in its own vacuum chamber  keeps all high voltage ( 100KV) within vacuum(except filament isolating transformer)  which allows 15 KV sparkplug type electrical feedthroughs to be used [http://home.earthlink.net/~jimlux/hv/sparkplug.htm]  these are welded sparkplugs on CF flanges with out radio noise suppression carbon resistor . A further welded sparkplug type electrical feedthrough will be used for interconnection of 100KV from power supply sub  vacuum chamber to main gun chamber. CF flange Electrical connectors, Other (1x 140KV 2KW  , , 6x SEM PIN diode pickups low current low voltage, 
+
+*Mechanical feed-troughs ; 45Nm torque oring or more leak resistant  magnetic feed-throughs 3x 12mm Motor shaft Vacuum chamber motion feed through. 10-5 Torr  Low torque version  and high torque for 700W build platform motor.
+
+*Use roughing pump and HiPace® 700 turbo pump with TC 400, DN 160 ISO-K connect via 90deg elbow  DN160 diameter pipe connected on to the side of a 419mm OD 190mm lenght pipe inserted between top vacuum chamber pate and glass chamber pipe, sealed with viton L gasktes seals above glass chaamber and below vacuum chamber top plate. 22K euro etra, (if Lab6  not tungsten filament used ;plus HiPace® 80 with TC 110, DN 40 ISO-KF for pumped buffer for 2 pressure version of electron gun laB6 side 10-7 Torr/ main chamber 10-4 Torr 5K euro extra cost).
+
+*Better than tubo pump cost (above) is print own oil difussion pump[http://www.pchemlabs.com/product.asp?pid=2156] and accept additional 0.4kEuro diffusion pump oil running cost (3 oil charges 300cc each charge),(diffusion pump purchase new 5K euro extra[http://www.pchemlabs.com/files/images/advertise_vhs_4_gray.gif][https://www.tedpella.com/vacuum_html/Vacuum_Pump_Oil_Exhaust_Filters_Foreline_Traps.htm#anchorLionS](print own turbo pump is very difficult, as magnetic bearing, high blade tolerances ( needs grinding )and balancing).
+
+* a dry pump option is better for EBPVD but currently 10K plus euro so rely on back flow oil filtering. ( Aminor issue for metal printing but a problem for solar cell printing is the silicon oil vapor in to the chamber from the oil diffussion pump which will be cracked when in contact with tungsten filament (at 2600 C) producing oil by products that reduce the vacuum and affect the quality of EBPVD [http://en.wikipedia.org/wiki/Electron_beam_physical_vapor_deposition] melted metal depsoited layers (EBPVD summary by material [http://www.cleanroom.byu.edu/TFE_materials.phtml]) .
+
+*Alternative roughing pump is use an oil diffusion pump,  there is an existing home build design, see here: [http://sites.google.com/site/skygaps/vacio/bomba-de-difusion-en-acero-inoxidable],[http://www.cientificosaficionados.com/tbo/difusion/bomba%20de%20vacio%20difusora.htm] (use google translate) though some people have had success with using the chilling unit from an air conditioner in-between pump and chamber [http://benkrasnow.blogspot.com/2011/03/diy-scanning-electron-microscope.html].  Other electrical feedthrough options includes 100KV sparkplugs with out radio noise suppression carbon resistor [http://home.earthlink.net/~jimlux/hv/sparkplug.htm] with oil immersion on outside.  But many commercial machines use the diffusion pumps and cope with11111 the oil issues;The cooled condensation baffles in between the pump and the chamber is adequate to prevent any significant amount of oil getting in the chamber at these pressures. The best way to do wire coils is to seal them into a stainless steel can, and allow a cooling medium like air to ventilate the can.  You cannot hope to dissipate much  heat from a coil in vacuum, and you don't want the coil to outgas into your vacuum anyway. For the prototype we suggest one gun in a chamber that can be used to test either guns design( Melting gun and vision gun).Once we see the outcome of the test we can decide to try two separate guns again if necessary.
+
+<gallery widths=480 heights=250>
+File:Selfreplication1.jpg|MetalicaRap V2's solution:Buy your 2 sizes of tube cut to length, the larger for gun chamber and build platform chamber the smaller for the spacing rings,  glue or weld  the smaller pipe rings in the larger pipe, weld in your self printed parts which are now large enough to fit
+File:Selfreplication2.jpg|The chamber surrounding the 12Kg hopper / sensor is too large to print in the build chamber, and you don't want the challenge of welding boxs that are air tight, so you buy a plate as thick as the whole box in Aluminum (cost excludes 304) and slightly over size, remove the build chamber from the bottom of your working printer, clamp the over size plate under it and use your printer in subtractive electron beam machining mode, with the beam striking at an angle by the use of an extra deflection coil, thereby cutting up the material you want to remove and manually breaking the cut bits of with normal hand tools ( other parts are bigger than the build platform like the hopper itself but can be printed in parts and assembled as does not need to be airtight).
+</gallery>
+
+'''Powder Deposition'''
+
+* The Arcam EMB uses a "textured roller".  Presumably a roller is textured with a pattern of holes which is loaded with powder, then the powder falls out of the holes, and a little random redistribution occurs on the way down to the workpiece surface for a reasonably uniform powder layer of repeatable thickness this design will likely operate at ultra high vacuum.  
+
+* Leveling the surface of the powder bed or enabling better flow through hopper at ultra high vacuums may be possible using ultrasonic lubrication to briefly fluidize the powder bed.  It might cause unacceptable settling though. 
+
+*The density of the powder is lower than the density of the solid metal.  So if the powder is only deposited using say the textured roller the upper level of the powder bed will get higher than the surface of the part being printed.  How is this dealt with in the Arcam printers?  More research needed
+
+*Upon beam heating material loss in the form of evaporation and melting is released in  to the chamber redepositing itself on windows and light optics and even chemically react with filament ( a minor effect with most materials but a major effect if used in electron beam machining mode where a non metallic backing  material or axillary material which is ignited leading to rapid expulsion of auxiliary material that pushes up through the partially mellted hole in the metal work piece above thus causing expulsion of molten metal in the hole, thus creating a cleaner hole shape See 26min in [http://www.youtube.com/watch?v=pkikv0RHWTA]), a slotted disk in combination with a pulsed beam operation and a slotted disk can protect these windows / optics surfaces. (another approach is to use replaceable and disposable glass sheet covers).
+
+''Power supply and power control options''
+
+* control via power supply feed back circuit leaving gun  cathode to  Wehnelt  bias fixed via  gun resistor ( which includes inherent sensing of beam current;  as too high beam current means more voltage drop across resistor so more beam pinching so reducing beam current so simple feed back control). When at 1KW power and shut down in half a cycle ( 0.2MHz switch frequency) the resonant energy left in LCC circuit and output capacitance would lead to one extra 55micron cube of melted Titanium or 40 microns cube of melted steel . . See problem C for calculation  [[MetalicaRap:Physics Principles|Physics Principles/Discussion]] These gun  resistor values give 0.94 KW not 0.1 KW look again maybe .For electron optics precision 3KV across Fixed gun resistor (2x  430K Ohm Resistors making Total  215KOhm when arranged in parallel for printing mode (300W rated resistor 50mm x 373mm E12 values [http://www.logwell.com/tech/components/resistor_values.html]),  Or 1720 KOhm 4 resistors arranged in series SEM mode, situated in open air air cooling , So beam will run at 940W and 100W respectively  15mA and 1.6mA respectively )  selectable from outside test tube via 3 pole 2 way  (6KV) switch solenoid powered by coil on long leads with rectified AC via core less transformer around test tube, ( will need to develop beam calibration current measurement method after  filament change possible with 4 pin diode sensing spot size, this approach was found limiting by inability to pulse electron gun due to its parasitic capacitance.
+
+*Use power supply only approach, but with a refinement of 8 fixed value /position adjustable gun resistor  so you can put beam current in suitable range to allow for filament change variations,  instead of manual rotation  ,use fet 4KV & 8x ldr/resistor gate matrix & 8 x led outside test tube. This would make the change of gun resistor automatic. Rejected due to difficulty of finding a FET small enough to go in test tube, ( 200W 4KV up to 30mA)
+
+*Current sensing methods; On  transformer secondary (high voltage side)  second FPGA on optical link via SFP gigabit modules can sit at -62.5KV and measure current via fixed 40K Ohm (40K non varying element of gun resistor it also has 0 to 140K ohm variable / or via 8 fixed resistors element in 20K ohm steps ) gun resistor their by gaining 30dB Signal noise, ( as opposed to second FPGA siting at 0V sensing beam  current across gun resistor via two voltage dividers (-62.5KV to -2V voltage divider), as opposed to using separate (5W 100 ohm) current sensing resistor in earth return from chamber, even less noise but earthing complications with some motor types and requiring some low voltage secondary insulation of chamber) ( power to FPGA via  low voltage rectifier and core less transformer via filament test tube ( same method as filament supply but additionally rectified).
+
+* by control of the bias on the Wehnelt voltage in gun ;  0V( full beam  wehnelt has same voltage as cathode filament No bias ) to - 3KV pinch off (cut off where wehnelt is at the lowest voltage and cathode filament  is 3KV more positive ( i.e. more like anode) ).  This bias is achieved via E130L vacuum tube acting as a voltage divider of the main output voltage thereby in effect creating a second voltage supply,  OR via 2nd transformer isolated power-supply  providing up to  3KV bias. This approach has poor short circuit protection and poor repeatability due to main filament replacement alignment variation). 
+
+*by control of the bias on the Wehnelt voltage in gun ; via a second power supply across cathode and Welneht. ( this option is not compatible with the o/p current sense via a  ground path resistor as it places a parallel power supply, o/p current sense via a hall device Isolation via a led to photo-transistor 10cm light tube to bring signal to low voltage side/ FPGA side. High voltage side circuit powered by a second core-less transformer across glass test tube used in cathode filament assembly, primary is mains, secondary rectified 5V for LED driver circuit and 15 V for hall current sense device ). 
+
+*limit the control option to pulsed operation; use FET series each 800V with transient voltage protection ''regulator circuit for an x-ray tube with transient voltage protection'' 
+
+*A full high voltage drop across a tetrode  ( triode limits bandwidth  [http://en.wikipedia.org/wiki/Miller_effect], this tetrode is a safety feature as it controls the current independently of gun but is expensive.
+
+*Push the parallel series converters resonant tank current by 30% so get higher voltage output of 73KV instead of 63 KV.  This requires n=19 Cp=18nF Cs=57nF alpha=0.3125 Ls=13.5µH. fo= 181.5Khz. Max duty cycle 0..8.  Stress on components increases as Zs Series impedance drops from 333 Ohms to 236 Ohms.
+
+*''Voltage multiplier ladder version'' Cartesian 1kW gun power supply circuit construction will be based around 2 MOT serialized 100KV(1Kw) that gets feeded from a freqency controlled 3 phase switchmode powersupply range 100 Hz to 1 KHz and 8 stage Cockcroft walton ladder for the positive 15 Kv x8= 120KV un regulated, To avoid the need for both; expensive air tight 100KV connecters, and  power supply oil immersion ,  the Cockcroft walton ladder will be situated within the vacuum tank (dead tank with the enclosure at earth potential) in a sub chamber sealed from the main chamber having its own small 8KV ion pump with some tantalum, slotted cathode cells  for argon gas collection [http://www.cientificosaficionados.com/libros/CERN/vacio3-CERN.pdf]. The intermediate wall between vacuum tank containing Cockroft walton ladder and main chamber containing gun will be constructed from copper with internal water cooling channels connected to exterior water supply to avoid Diode and resistor overheating problems. With the use of a one way valve between chambers the circuitry remains well insulated unaffected by vacuum loss in the main chamber. .( Cross linking machines already use this vacuum encased powersupply approach).
+Cockcroft Walton ladder  Calculator Help & Tool for any one who want's a fast overview [http://blazelabs.com/cw-brm-java.asp]
+
+[[file:transformersladder.jpg|thumb|right|  Transformers and ladder 3 phases ]]
+[[file:100KPower.jpg|thumb|right| Power supply functional diagram now full wave Cockcroft- Walton ladder]]
+
+*You take heat out of assemblies like this by incorporating water cooling.  If you use high purity water (80 meg-ohm) it is reasonably non-conducting electrically, though initially tests will be air cooled vanes on high voltage feed through copper bar.
+
+'''Deflector coil options'''
+
+Driver circuit choice Coil position options 1)7 degrees at bottom of gun 2)nearer build table.
+By rotating the scan raster by 45 degrees in the X Y plane means that we can increase scan speed by product of X and Y coils deflection speeds (in contrast to max X deflection speed equaling max X coil deflection speed), though we do get a lower pointing accuracy.
+
+
+Q.
+How can I get part names out of  freecad  as a BOM, as this will  help us keep track of ordering and modifications example .stp file here  http://reprap.org/wiki/File:Assembly301.zip  
+A.
+jreinhardt; you can use python, you can get a list of all objects from FreeCAD.ActiveDocument.findObjects()
+and for each object you can get the name as shown in the TreeView as obj.Label
+
+so you could write them to a .csv file like this:
+with open("out.csv","w") as fid:
+for obj in FreeCAD.ActiveDocument.findObjects():
+fid.write(obj.Label + "\n")
+this file should be importable into Excel or LibreOffice
+
+
+Old boards with compatibilty issue on primary board next boards will use ads6242 adc and the input to the primary board will filter 500kHz noise by adding a power factor control circuit with 400V output, and a 400V to 325V voltage reduction circuit.
+SMPS 8 PCB boards Kicad file [[File: PowerSupplyPrimary_CPH01_1.zip]][[File:  PowerSupplyPrimaryADC_CPH01_2.zip]] [[File:  PowerSupplySecondaryA_CPH01_3.zip]] [[File:  PowerSupplySecondaryB_CPH01_4.zip]] [[File:  PowerSupplySecondaryADC_CPH01_5.zip]] [[File:  PowerSupplySecondaryDivider_CPH01_6.zip]] [[File:  PowerSupplySecondaryVishay_CPH01_7.zip]] [[File:  PowerSupplySFPShield_CPH01_8.zip]] 
+
+SMPS 8 PCB boards Hackvana.com manufacturing zip files & ordering notes for both SMPS's [[File: PowerSupplyPrimary_CPH01_1_V1.zip]][[File:  PowerSupplyPrimaryADC_CPH01_2_V1.zip]] [[File:  PowerSupplySecondaryA_CPH01_3_V2.zip]] [[File:  PowerSupplySecondaryB_CPH01_4_V2.zip]] [[File:  PowerSupplySecondaryADC_CPH01_5_V1.zip]] [[File:  PowerSupplySecondaryDivider_CPH01_6_V1.zip]] [[File:  PowerSupplySecondaryVishay_CPH01_7_V1.zip]] [[File:  PowerSupplySFPShield_CPH01_8_V1.zip]] 
+PowerSupplyPrimary_CPH01_1_V1.zip	times 5	25x17.8cm	2oz (ideally 3oz 30deg Temp rise)   sidewall electropolishing yes usd15 extra    (2needed but min order 5) stencil8 stencil PowerSupplyPrimaryADC_CPH01_2_V1.zip	times 5	23.6x5.25cm  sidewall electropolishing yes usd15 extra (2needed but min 5) stencil8 stencil PowerSupplySecondaryA_CPH01_3_V2.zip	times 91	8x10cm	ENIG 0.4mm FR4 thickness no mask     no stencil as only two components PowerSupplySecondaryB_CPH01_4_V2.zip	times91	8x10cm	ENIG0.4mm FR4 thickness   no mask	no stencil as  only two components  PowerSupplySecondaryADC_CPH01_5_V1.zip       times 5 extra 4.8x10.9cm    sidewall electropolishing yes usd15 extra (2needed but min 5)stencil8 stencilPowerSupplySecondaryDivider_CPH01_6_V1.zip	times 5	20.5x3.5cm  (4 needed but min 5) No stencilPowerSupplySecondaryVishay_CPH01_7_V1.zip	times 5	24x12cm     (2 needed but min 5) No stencil PowerSupplySFPShield_CPH01_8_V1.zip	times 5	4.7x3cm  panalise +20USD (4 needed but min 5) stencil8 stencil Do  *green solder mask, white silk screen, RoHS finish,via exposed, normal board thickness and 1oz copper unless listed otherwise above.
+
+====Data section for builders prep only====
+
+
+1 micro S pixel melt/liquid state duration at 200W    (De focus preheat needs no data so ignore (at 1kW ))
+
+For future design expected requirements and point and shoot mode compatibility 8192 x 8192 at 120Hz gives 0.0001 micro sec duration on each pixel which could in theory be achieved by gun assuming scanning drive issues could be overcome, by eventual use of laB6 40 times brighter filament, gun power x10 2000W , and pre heat temperature 0.8 degrees below melting (10 000 times quicker melting).  
+
+use existing standard option
+
+8K 120 full dome 8192 x 8192, 120 Hz gives  30 micro m square/pixel, 24 bit pixel depth split 3 colors 8bit x 3 
+
+prototype design,  
+
+In practise this 8192 x 8192 30 micro m square/pixel will be achieved by dividing time by 16 vertically and horizontally so if this full resolution is needed across the whole build area , jump patch method used, the scan would be 512 x 512 256 times taking about 10 seconds to achieve at 25Hz .dropping/ignoring all intermediate data. This would give a 0.1 micro second duration on each pixel which could be achieved by running at 2 degree under melting point at existing 200W print gun power(ie divide by 16 30 micron resolution 256 patches each patch side length 512 see below). 
+
+Each square/pixel 24 bit in scan mode (6 x 24 bit point and shoot mode)
+
+Patch mode 000;point and shoot mode different from all other modes, into 6 transmissions each the first four having one of the following 14 bit  coordinates,  X start Y start coordinates and X finish  Y finish coordinate , each having 6 block sequence start indicator bit, the first one having patch mode indication 3 bit,the last two setting travel duration (40 bit 1 exp 12 from 1 000 secs down 1nS )
+
+1st of 6 ,Xstart 13 bit ,L1 adjust 4 bit , 2 bit material ,  4 block sequence start indication 1 bit set to 1, unused 1 bit , patch mode indication 3 bit,
+
+2nd of 6, Ystart 13 bit ,L2 adjust 4 bit, Coil induction settle delay 2bit of 4,sequence start indication bit set to 0,  beam modulation first part 4 of 8 bit
+
+3rd of 6 ,Xstart 13 bit, L1 adjust 4 bit, Coil induction settle delay 2bit of 4,sequence start indication bit set to 0, beam modulation second part 4 of 8 bits, 
+
+4th of 6 Yfinish 13 bit, L2 adjust 4 bit, unused 2 bit ,  sequence start indication bit set to 0 , unused 1 bit , interconnection shape 3 bit,
+
+5th of 6 travel duration bit 1 to 19 bit 19bit,  sequence start indication bit set to 0 1bit, travel duration 20 to 23 4bit,
+        
+6th of 6 travel duration bit 24 to 40 bit 17bit, unused 2bit sequence start indication bit set to 0, unused 4bit,
+
+interconnection shape key ; 000 straight line, 001 curve to x 5%, 010 curve to y 5%, 011 curve to x 10%, 100 Curve to y 10%, 101 curve to x 20%, 111 Curve to y 20%, 
+
+
+Patch mode 001; divide by 1  480 micron m  resolution 1 patche each patch side length 512, (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total)) 
+
+Low resolution mode estimation whole area 512  x 512 25Hz 480 micro m square / pixel,  0.1 micro S duration 700 micro S required at 200W x 10 000 factor,  so 2KW gun(x10) ,preheat 0.2 degree C (x100), run filament hotter (x10)   may need several passes (data preparation is divide by 16 (16x16 pixels read as one pixel)). 
+
+
+Patch mode 010;divide by 2  240 micron m resolution 4 patches each patch side length 512   (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total))
+ 
+
+Patch mode 011;divide by 4  120 micron m resolution 16 patches each patch side length 512 (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total))
+
+
+Patch mode 100;divide by 8  60 micron m resolution 64 patches each patch side length 512  (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total))
+
+
+Patch mode 101;divide by 16 30 micron resolution 256 patches each patch side length 512  (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total))) 512 x 16=8192 high resolution
+
+240 000 micro m build area 8 000 30 micron squares/print pixels at  120 hz to print gives 8G hz data clock 24 bit for vertical point mode compatibility this is too high for prototype so  1Hz 67 mHz data clock so data rate is 201MByte/second a 10bit and a 14bit elements in 3x 8 bit parts. 
+
+
+
+Patch mode 110;other (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total))
+
+Patch mode 111;other  (Bit allocation; beam modulation 8 bit,L1 adjust 4bit, L2 adjust 4bit, material 2 bit ,frame start 1 bit, patch start 1bit,line start 1 bit,patch mode 3bit (24 bit total))
+
+Line will be 512 x 24bit =12288 bits or 1536 bytes, patch will be 512 x 512 x 24bit =6 291 456 bits or 786 432 bytes if 25 hz 157Mbits/S Data clock 6.5536Mhz 
+
+min we have 3seconds to collect data during powder deposition.
+
+NB if need higher resolution use jumping patch method , ie reduce scan size and and then jump patch
+
+NB 512 vertical 12000 horizontal resolution 240 000 micro m build area width, 12 000 20 micron squares/print pixels to print gives 200Mhz data clock for 16 000 line rate at 14 bit for vertical point mode compatibility Not efficient.
+512
+
+====Practical Tasks for builders====
+
+Specific's
+
+:*     What motor power for build platform vertical motion see scale diagram below ? owned by username ;...........likely finish date :.........emotional status..........
+
+:*     Which diameter for extension rod inside moterdriven sleeve. I.D. & O.D. sleeve diameters, I.D. & O.D for extention shaft? owned by username ;...........likely finish date :.........emotional status..........
+
+:*     What motor size & minimum shaft O.D. for hopper X movement/powder deposition ? owned by username ;...........likely finish date :.........emotional status..........
+
+:*     What is the best Main Deflector Coil driver topology options ; a) Raster  30cmx30cm   b) point and shoot  owned by username ;...........likely finish date :.........emotional status..........
+
+
+Broader research (this is the difficult stuff)  you need plenty of free time to do these 
+
+
+Your suggested task here (especially pleased if you are going to do it)
+
+:*  ....................................................................................................................................................................................owned by username ;...........likely finish date :.........emotional status..........
+
+
+None of the processes in themselves are new, they have all been done in other contexts. What is new is that it may offer finished parts requiring no further machining, verification of parts tolerance and bring error correction to metal powder 3D printing for the first time, thus enabling full-strength finished dimensional parts production.
+
+(add your username, your likely Task completion date , and  emotional status comment ;(possibles include " its fun" " its challenging" "wow" "----" "I feel like Robinson Crusoe" " I am so alve" "I am going to be wealthy" .... )
+
+==Research Corner Welcomes Your Contribution==
+
+If these knowledge areas are new to you, remember to use your  networking skills to talk to others, that friend or uncle may be just that expert!
+
+Design/research questions:
+   
+*A. Possible pit falls of running an SEM at 100W in  four-source photometric stereo Ruderford back scatter mode? 
+
+*B. Depth of field of measurements layer errors over 200µ height, typical SEM power is 0.1W?
+
+*C. Target metal surface temperature measurement would be a big advantage, Do you know of a electron bombardment based remote temperature measurement approach?. 
+
+*D. Quantify relationship between cathode surface tolerances and  electron gun performance, (spot size variation , 2nd order effects etc ) Quantify range of gun performance at cathode tolerances of IT 7.
+
+*E. Which pattern of beam movement a "fixed  raster pattern (like a TV scan )" or "point and fire where needed" in a) preheat stage? ( taking temp up to 20 C below melting pointas (commercial printers preheat and infill print method))  b)melting/sintering by following part shape? (scanning  coil eddy currents overcome with delays?,scanning blanked out areas leads to time wasting?, variable shaped beam more efficient?, Interference from other signals- X ray , secondary electrons , luminescence , beam induced currents?, Clear path for beam?   (commercial printers do edges of parts in this method) 
+
+'''[[Talk:MetalicaRap| Design question feed back / discussion.  Add your ideas here!  ]]'''
+
+MetalicaRap Construction;           [[MetalicaRap:Physics Principles|Physics Principles/Disscussion]]
+
+====See Also====
+*[http://shop.auroralabs3d.com/products/s-titanium-1]S-Titanium 3D printer 12Keuro 18cmx18cmx50cm build size availible for pre order  may help those without machining skills to make parts for MetalicaRap .
+
+* [[Metal Delta RepRap v1]] - uses a MIG welder to print rough steel forms prior to conventional machining See [http://www.appropedia.org/Open-source_metal_3-D_printer Open Source Metal Printer]At Peace research group part of Department of Materials Michigan Tech  [http://www.mse.mtu.edu/~pearce/Past.html Past Projects]
+
+[[Category:MetalicaRap| ]]
